@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "180800337352",
+    "project_id": "memo-app-33071",
+    "storage_bucket": "memo-app-33071.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180800337352:android:52841402db536a41ac7cfd",
+        "android_client_info": {
+          "package_name": "com.suzukiaki.clean_test2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKbwmsB90Y6ld1kWbH4x3QuWzzbZyNSOw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

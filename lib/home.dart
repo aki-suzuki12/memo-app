@@ -1,52 +1,63 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/legacy.dart';
 import 'next_page.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'items_provider.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
-class HomePage extends StatefulWidget {
+class HomePage extends ConsumerWidget {
   const HomePage({super.key});
 
   @override
-  State<HomePage> createState() => _HomePageState();
-}
+  Widget build(BuildContext context, WidgetRef ref) {
+    final itemsAsync = ref.watch(itemsProvider);
+    final checkboxProvider = StateProvider<bool>((ref) => false);
+    final isChecked = ref.watch(checkboxProvider);
 
-class _HomePageState extends State<HomePage> {
-  bool isChecked = false;
-
-  // ← ここ追加
-  List<String> items = [];
-
-  @override
-  Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('あきアプリ開発')),
 
-      body: Column(
-        children: [
-          CheckboxListTile(
-            value: isChecked,
-            title: const Text('チェック'),
-            onChanged: (value) {
-              setState(() {
-                isChecked = value!;
-              });
-            },
-          ),
-
-          Expanded(
-            child: ListView.builder(
-              itemCount: items.length,
-              itemBuilder: (context, index) {
-                return ListTile(
-                  title: Text(items[index]),
-                  subtitle: const Text('subtitle'),
-                );
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            CheckboxListTile(
+              value: isChecked,
+              title: const Text('チェック'),
+              onChanged: (value) {
+                ref.read(checkboxProvider.notifier).state = value!;
               },
             ),
-          ),
 
-          // 👇 画面遷移ボタンはここ
-          Padding(
-            padding: const EdgeInsets.all(16.0),
-            child: ElevatedButton(
+            const SizedBox(height: 8),
+
+            // 👇 ここが重要（Firestore表示）
+            Expanded(
+              child: itemsAsync.when(
+                data: (items) {
+                  return ListView.builder(
+                    itemCount: items.length,
+                    itemBuilder: (context, index) {
+                      return ListTile(
+                        title: Text(items[index]),
+                        subtitle: const Text('Firestoreデータ'),
+                      );
+                    },
+                  );
+                },
+                loading: () =>
+                    const Center(child: CircularProgressIndicator()),
+                error: (e, _) => Center(child: Text('エラー: $e')),
+              ),
+            ),
+
+            const SizedBox(height: 8),
+
+            ElevatedButton(
+              style: ElevatedButton.styleFrom(
+                minimumSize: const Size(double.infinity, 50),
+              ),
               onPressed: () {
                 Navigator.push(
                   context,
@@ -55,15 +66,15 @@ class _HomePageState extends State<HomePage> {
               },
               child: const Text('次の画面へ'),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
 
-      // 👇 追加ボタンはこっち（分離）
+      // 👇 Firestore保存
       floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          setState(() {
-            items.add('ListTile ${items.length}');
+        onPressed: () async {
+          await FirebaseFirestore.instance.collection('items').add({
+            'text': 'ListTile ${DateTime.now()}',
           });
         },
         child: const Icon(Icons.add),

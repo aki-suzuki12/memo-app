@@ -1,0 +1,1840 @@
+[  +20 ms] executing: sysctl hw.optional.arm64
+[   +6 ms] Exit code 0 from: sysctl hw.optional.arm64
+[        ] hw.optional.arm64: 1
+[   +4 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[        ] executing: [/Users/suzukiaakira/Desktop/my_app_final2/flutter/] git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[  +22 ms] Exit code 0 from: git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[        ] 2026-04-15 21:21:08 -0700
+[  +22 ms] executing: sysctl hw.optional.arm64
+[   +5 ms] Exit code 0 from: sysctl hw.optional.arm64
+[        ] hw.optional.arm64: 1
+[        ] executing: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[  +96 ms] Exit code 0 from: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[        ] Xcode 26.4
+           Build version 17E192
+[        ] executing: /usr/bin/arch -arm64e xcrun xcdevice list --timeout 5
+[   +1 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[  +20 ms] executing: /Users/suzukiaakira/Library/Android/sdk/platform-tools/adb devices -l
+[        ] executing: /usr/bin/arch -arm64e xcrun xcdevice list --timeout 2
+[        ] executing: /usr/bin/arch -arm64e xcrun simctl list devices booted
+[ +132 ms] /usr/bin/arch -arm64e xcrun simctl list devices booted iOS --json
+[        ] executing: /usr/bin/arch -arm64e xcrun simctl list devices booted iOS --json
+[  +23 ms] List of devices attached
+           QUR0219B14005436       device usb:1-1 product:MAR-LX2J model:MAR_LX2J device:HWMAR transport_id:33
+[ +137 ms] {
+             "devices" : {
+               "com.apple.CoreSimulator.SimRuntime.iOS-26-4" : [
+
+               ]
+             }
+           }
+[+2692 ms] [
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.4 (23E244)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone18,5",
+               "identifier" : "E17D31A0-0820-4601-8589-DD8F3D7C4531",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.iphone-17e-1",
+               "modelName" : "iPhone 17e",
+               "name" : "iPhone 17e",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.4 (23E244)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad16,9",
+               "identifier" : "212F9AB8-0674-4BB1-B0F1-462D929E5C3F",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.ipad-air-11-inch-m4-1",
+               "modelName" : "iPad Air 11-inch (M4)",
+               "name" : "iPad Air 11-inch (M4)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.4 (23E244)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone18,1",
+               "identifier" : "E79C6E56-8900-4970-A930-A7756362671B",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.iphone-17-pro-2",
+               "modelName" : "iPhone 17 Pro",
+               "name" : "iPhone 17 Pro",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.4 (23E244)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad17,2",
+               "identifier" : "66B3A735-E093-4725-AC68-2D9569211520",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.ipad-pro-11-inch-m5-1",
+               "modelName" : "iPad Pro 11-inch (M5)",
+               "name" : "iPad Pro 11-inch (M5)",
+               "ignored" : false
+             },
+             {
+               "ignored" : false,
+               "modelCode" : "iPhone15,4",
+               "simulator" : false,
+               "modelName" : "iPhone 15",
+               "operatingSystemVersion" : "26.4.2 (23E261)",
+               "identifier" : "00008120-001650D23A6A601E",
+               "platform" : "com.apple.platform.iphoneos",
+               "architecture" : "arm64e",
+               "interface" : "usb",
+               "available" : true,
+               "name" : "iPhone",
+               "modelUTI" : "com.apple.iphone-15-1"
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.4 (23E244)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad17,4",
+               "identifier" : "9E98B8CD-818D-454F-884D-5C9109CB1AAC",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.ipad-pro-13-inch-m5-1",
+               "modelName" : "iPad Pro 13-inch (M5)",
+               "name" : "iPad Pro 13-inch (M5)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.4 (23E244)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone18,4",
+               "identifier" : "3D08B0F0-3486-4B91-84AD-DA752BD2EE98",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.iphone-air-1",
+               "modelName" : "iPhone Air",
+               "name" : "iPhone Air",
+               "ignored" : false
+             },
+             {
+               "ignored" : false,
+               "modelCode" : "MacBookPro18,4",
+               "simulator" : false,
+               "modelName" : "MacBook Pro",
+               "operatingSystemVersion" : "26.4.1 (25E253)",
+               "identifier" : "00006001-000830300A04801E",
+               "platform" : "com.apple.platform.macosx",
+               "architecture" : "arm64e",
+               "interface" : "usb",
+               "available" : true,
+               "name" : "My Mac",
+               "modelUTI" : "com.apple.macbookpro-14-2021"
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.4 (23E244)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad16,11",
+               "identifier" : "92086644-0C63-4B80-A550-6ED00A51B1A2",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.ipad-air-13-inch-m4-1",
+               "modelName" : "iPad Air 13-inch (M4)",
+               "name" : "iPad Air 13-inch (M4)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.4 (23E244)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad15,7",
+               "identifier" : "66647C9F-5832-47B6-85B8-A9D49B04CC5E",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.ipad-a16-1",
+               "modelName" : "iPad (A16)",
+               "name" : "iPad (A16)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.4 (23E244)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad16,2",
+               "identifier" : "A5C6EAA5-595B-4D05-97E1-A6DD4FC44C9C",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.ipad-mini-a17-1",
+               "modelName" : "iPad mini (A17 Pro)",
+               "name" : "iPad mini (A17 Pro)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.4 (23E244)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone18,3",
+               "identifier" : "99B3DE5C-9380-4ADD-8EA9-F8A89237264B",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.iphone-17-2",
+               "modelName" : "iPhone 17",
+               "name" : "iPhone 17",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.4 (23E244)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone18,2",
+               "identifier" : "6CC6BE4C-30DF-435D-9EAF-879990AC08E2",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.iphone-17-pro-max-2",
+               "modelName" : "iPhone 17 Pro Max",
+               "name" : "iPhone 17 Pro Max",
+               "ignored" : false
+             }
+           ]
+[   +1 ms] executing: /usr/bin/arch -arm64e xcrun devicectl --version
+[  +63 ms] executing: /usr/bin/arch -arm64e xcrun devicectl list devices --timeout 5 --json-output /var/folders/mh/rvbybkl1781063f2z9cq4f9h0000gn/T/flutter_tools.Dy9MFC/core_devices.IMFpOp/core_device_list.json
+[  +71 ms] {
+             "info" : {
+               "arguments" : [
+                 "devicectl",
+                 "list",
+                 "devices",
+                 "--timeout",
+                 "5",
+                 "--json-output",
+                 "/var/folders/mh/rvbybkl1781063f2z9cq4f9h0000gn/T/flutter_tools.Dy9MFC/core_devices.IMFpOp/core_device_list.json"
+               ],
+               "commandType" : "devicectl.list.devices",
+               "environment" : {
+                 "TERM" : "xterm-256color"
+               },
+               "jsonVersion" : 3,
+               "outcome" : "success",
+               "version" : "518.27"
+             },
+             "result" : {
+               "devices" : [
+                 {
+                   "capabilities" : [
+                     {
+                       "featureIdentifier" : "com.apple.coredevice.feature.acquireusageassertion",
+                       "name" : "Acquire Usage Assertion"
+                     },
+                     {
+                       "featureIdentifier" : "com.apple.coredevice.feature.connectdevice",
+                       "name" : "Connect to Device"
+                     },
+                     {
+                       "featureIdentifier" : "com.apple.coredevice.feature.tags",
+                       "name" : "Modify Tags"
+                     },
+                     {
+                       "featureIdentifier" : "com.apple.coredevice.feature.default.user.credentials",
+                       "name" : "Modify credentials for default users for a device"
+                     },
+                     {
+                       "featureIdentifier" : "com.apple.coredevice.feature.unpairdevice",
+                       "name" : "Unpair Device"
+                     }
+                   ],
+                   "connectionProperties" : {
+                     "authenticationType" : "manualPairing",
+                     "isMobileDeviceOnly" : false,
+                     "lastConnectionDate" : "2026-04-19T01:45:00.000Z",
+                     "pairingState" : "paired",
+                     "potentialHostnames" : [
+                       "iPhone.coredevice.local",
+                       "EAB23DC0-6857-52BD-8955-7079F72273A8.coredevice.local",
+                       "00008120-001650D23A6A601E.coredevice.local"
+                     ],
+                     "transportType" : "localNetwork",
+                     "tunnelState" : "disconnected",
+                     "tunnelTransportProtocol" : "tcp"
+                   },
+                   "deviceProperties" : {
+                     "bootedFromSnapshot" : true,
+                     "bootedSnapshotName" : "com.apple.os.update-B1308A12406E5A09CB72DF1F77BC2C23874D700B50C0C25C1F5AFDD168FE33C1",
+                     "ddiServicesAvailable" : false,
+                     "developerModeStatus" : "enabled",
+                     "hasInternalOSBuild" : false,
+                     "name" : "iPhone",
+                     "osBuildUpdate" : "23E261",
+                     "osVersionNumber" : "26.4.2",
+                     "rootFileSystemIsWritable" : false,
+                     "screenViewingURL" : "devices://device/open?id=EAB23DC0-6857-52BD-8955-7079F72273A8",
+                     "supportsCheckedAllocations" : false
+                   },
+                   "hardwareProperties" : {
+                     "cpuType" : {
+                       "name" : "arm64e",
+                       "subType" : 2,
+                       "type" : 16777228
+                     },
+                     "deviceType" : "iPhone",
+                     "ecid" : 6281313341038622,
+                     "hardwareModel" : "D37AP",
+                     "internalStorageCapacity" : 128000000000,
+                     "isProductionFused" : true,
+                     "marketingName" : "iPhone 15",
+                     "platform" : "iOS",
+                     "productType" : "iPhone15,4",
+                     "reality" : "physical",
+                     "serialNumber" : "JJV6VYN2KW",
+                     "supportedCPUTypes" : [
+                       {
+                         "name" : "arm64e",
+                         "subType" : 2,
+                         "type" : 16777228
+                       },
+                       {
+                         "name" : "arm64",
+                         "subType" : 0,
+                         "type" : 16777228
+                       }
+                     ],
+                     "supportedDeviceFamilies" : [
+                       1
+                     ],
+                     "thinningProductType" : "iPhone15,4",
+                     "udid" : "00008120-001650D23A6A601E"
+                   },
+                   "identifier" : "EAB23DC0-6857-52BD-8955-7079F72273A8",
+                   "tags" : [
+
+                   ],
+                   "visibilityClass" : "default"
+                 }
+               ]
+             }
+           }
+
+[   +6 ms] /Users/suzukiaakira/Library/Android/sdk/platform-tools/adb -s QUR0219B14005436 shell getprop
+[ +106 ms] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[  +52 ms] Skipping pub get: version match.
+[  +51 ms] Found plugin firebase_core at /Users/suzukiaakira/.pub-cache/hosted/pub.dev/firebase_core-4.7.0/
+[   +3 ms] Found plugin firebase_core_web at /Users/suzukiaakira/.pub-cache/hosted/pub.dev/firebase_core_web-3.6.0/
+[   +3 ms] Found plugin cloud_firestore at /Users/suzukiaakira/.pub-cache/hosted/pub.dev/cloud_firestore-6.3.0/
+[        ] Found plugin cloud_firestore_web at /Users/suzukiaakira/.pub-cache/hosted/pub.dev/cloud_firestore_web-5.3.0/
+[  +38 ms] Found plugin firebase_core at /Users/suzukiaakira/.pub-cache/hosted/pub.dev/firebase_core-4.7.0/
+[        ] Found plugin firebase_core_web at /Users/suzukiaakira/.pub-cache/hosted/pub.dev/firebase_core_web-3.6.0/
+[   +2 ms] Found plugin cloud_firestore at /Users/suzukiaakira/.pub-cache/hosted/pub.dev/cloud_firestore-6.3.0/
+[        ] Found plugin cloud_firestore_web at /Users/suzukiaakira/.pub-cache/hosted/pub.dev/cloud_firestore_web-5.3.0/
+[   +7 ms] Skipping generating web_plugin_registrant.dart because it is up-to-date.
+[  +27 ms] Found plugin firebase_core at /Users/suzukiaakira/.pub-cache/hosted/pub.dev/firebase_core-4.7.0/
+[        ] Found plugin firebase_core_web at /Users/suzukiaakira/.pub-cache/hosted/pub.dev/firebase_core_web-3.6.0/
+[   +1 ms] Found plugin cloud_firestore at /Users/suzukiaakira/.pub-cache/hosted/pub.dev/cloud_firestore-6.3.0/
+[        ] Found plugin cloud_firestore_web at /Users/suzukiaakira/.pub-cache/hosted/pub.dev/cloud_firestore_web-5.3.0/
+[   +2 ms] Generating /Users/suzukiaakira/clean_test/clean_test2/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+[   +1 ms] Skipping generating GeneratedPluginRegistrant.java because it is up-to-date.
+[   +2 ms] Skipping generating generated_plugin_registrant.h because it is up-to-date.
+[        ] Skipping generating generated_plugin_registrant.cc because it is up-to-date.
+[        ] Skipping generating generated_plugins.cmake because it is up-to-date.
+[   +1 ms] Skipping generating generated_plugin_registrant.h because it is up-to-date.
+[        ] Skipping generating generated_plugin_registrant.cc because it is up-to-date.
+[        ] Skipping generating generated_plugins.cmake because it is up-to-date.
+[   +1 ms] Skipping generating GeneratedPluginRegistrant.h because it is up-to-date.
+[        ] Skipping generating GeneratedPluginRegistrant.m because it is up-to-date.
+[        ] Skipping generating GeneratedPluginRegistrant.swift because it is up-to-date.
+[  +54 ms] ro.hardware = kirin710
+[        ] ro.build.characteristics = default
+[  +41 ms] Initializing file store
+[   +5 ms] Skipping target: gen_localizations
+[   +1 ms] gen_dart_plugin_registrant: Starting due to {InvalidatedReasonKind.inputChanged: The following inputs have updated contents: /Users/suzukiaakira/clean_test/clean_test2/.dart_tool/package_config.json}
+[  +34 ms] Found plugin firebase_core at /Users/suzukiaakira/.pub-cache/hosted/pub.dev/firebase_core-4.7.0/
+[        ] Found plugin firebase_core_web at /Users/suzukiaakira/.pub-cache/hosted/pub.dev/firebase_core_web-3.6.0/
+[   +1 ms] Found plugin cloud_firestore at /Users/suzukiaakira/.pub-cache/hosted/pub.dev/cloud_firestore-6.3.0/
+[        ] Found plugin cloud_firestore_web at /Users/suzukiaakira/.pub-cache/hosted/pub.dev/cloud_firestore_web-5.3.0/
+[   +2 ms] gen_dart_plugin_registrant: Complete
+[        ] Skipping target: _composite
+[        ] complete
+[   +1 ms] Launching lib/main.dart on MAR LX2J in debug mode...
+[   +1 ms] /Users/suzukiaakira/Desktop/my_app_final2/flutter/bin/cache/dart-sdk/bin/dartaotruntime /Users/suzukiaakira/Desktop/my_app_final2/flutter/bin/cache/dart-sdk/bin/snapshots/frontend_server_aot.dart.snapshot --sdk-root /Users/suzukiaakira/Desktop/my_app_final2/flutter/bin/cache/artifacts/engine/common/flutter_patched_sdk/ --incremental --target=flutter --experimental-emit-debug-metadata -DFLUTTER_VERSION=3.41.7 -DFLUTTER_CHANNEL=stable -DFLUTTER_GIT_URL=https://github.com/flutter/flutter.git -DFLUTTER_FRAMEWORK_REVISION=cc0734ac71 -DFLUTTER_ENGINE_REVISION=59aa584fdf -DFLUTTER_DART_VERSION=3.11.5 --output-dill /var/folders/mh/rvbybkl1781063f2z9cq4f9h0000gn/T/flutter_tools.Dy9MFC/flutter_tool.3kJDDQ/app.dill --packages /Users/suzukiaakira/clean_test/clean_test2/.dart_tool/package_config.json -Ddart.vm.profile=false -Ddart.vm.product=false --enable-asserts --track-widget-creation --filesystem-scheme org-dartlang-root --initialize-from-dill build/c1a2004662044feb47c136be2870373c.cache.dill.track.dill --verbosity=error --enable-experiment=alternative-invalidation-strategy
+[   +5 ms] executing: /Users/suzukiaakira/Library/Android/sdk/platform-tools/adb -s QUR0219B14005436 shell -x logcat -v time -t 1
+[   +6 ms] <- compile package:clean_test2/main.dart
+[ +100 ms] --------- beginning of main
+           04-26 17:41:46.528 W/getprop (19695): type=1400 audit(0.0:3147687): avc: denied { map } for pid=19695 path="/dev/__properties__/u:object_r:huawei_perf_persist_public_read_prop:s0" dev="tmpfs" ino=3599 scontext=u:r:shell:s0 tcontext=u:object_r:huawei_perf_persist_public_read_prop:s0 tclass=file permissive=0
+[   +6 ms] executing: /Users/suzukiaakira/Library/Android/sdk/platform-tools/adb version
+[  +17 ms] Android Debug Bridge version 1.0.41
+           Version 37.0.0-14910828
+           Installed as /Users/suzukiaakira/Library/Android/sdk/platform-tools/adb
+           Running on Darwin 25.4.0 (arm64)
+[        ] executing: /Users/suzukiaakira/Library/Android/sdk/platform-tools/adb start-server
+[  +20 ms] Building APK
+[  +86 ms] executing: /usr/bin/plutil -convert xml1 -o - /Applications/Android Studio.app/Contents/Info.plist
+[  +10 ms] Exit code 0 from: /usr/bin/plutil -convert xml1 -o - /Applications/Android Studio.app/Contents/Info.plist
+[        ] <?xml version="1.0" encoding="UTF-8"?>
+           <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+           <plist version="1.0">
+           <dict>
+           	<key>CFBundleDevelopmentRegion</key>
+           	<string>English</string>
+           	<key>CFBundleDocumentTypes</key>
+           	<array>
+           		<dict>
+           			<key>CFBundleTypeExtensions</key>
+           			<array>
+           				<string>ipr</string>
+           			</array>
+           			<key>CFBundleTypeIconFile</key>
+           			<string>studio.icns</string>
+           			<key>CFBundleTypeName</key>
+           			<string>Android Studio Project File</string>
+           			<key>CFBundleTypeRole</key>
+           			<string>Editor</string>
+           		</dict>
+           		<dict>
+           			<key>CFBundleTypeExtensions</key>
+           			<array>
+           				<string>*</string>
+           			</array>
+           			<key>CFBundleTypeName</key>
+           			<string>All documents</string>
+           			<key>CFBundleTypeOSTypes</key>
+           			<array>
+           				<string>****</string>
+           			</array>
+           			<key>CFBundleTypeRole</key>
+           			<string>Editor</string>
+           			<key>LSTypeIsPackage</key>
+           			<false/>
+           		</dict>
+           	</array>
+           	<key>CFBundleExecutable</key>
+           	<string>studio</string>
+           	<key>CFBundleGetInfoString</key>
+           	<string>Android Studio 2025.3, build AI-253.32098.37.2534.15232325. Copyright JetBrains s.r.o., (c) 2000-2026</string>
+           	<key>CFBundleIconFile</key>
+           	<string>studio.icns</string>
+           	<key>CFBundleIdentifier</key>
+           	<string>com.google.android.studio</string>
+           	<key>CFBundleInfoDictionaryVersion</key>
+           	<string>6.0</string>
+           	<key>CFBundleName</key>
+           	<string>Android Studio</string>
+           	<key>CFBundlePackageType</key>
+           	<string>APPL</string>
+           	<key>CFBundleShortVersionString</key>
+           	<string>2025.3</string>
+           	<key>CFBundleURLTypes</key>
+           	<array>
+           		<dict>
+           			<key>CFBundleTypeRole</key>
+           			<string>Editor</string>
+           			<key>CFBundleURLName</key>
+           			<string>Stacktrace</string>
+           			<key>CFBundleURLSchemes</key>
+           			<array>
+           				<string>idea</string>
+           			</array>
+           		</dict>
+           	</array>
+           	<key>CFBundleVersion</key>
+           	<string>AI-253.32098.37.2534.15232325</string>
+           	<key>LSApplicationCategoryType</key>
+           	<string>public.app-category.developer-tools</string>
+           	<key>LSArchitecturePriority</key>
+           	<array>
+           		<string>arm64</string>
+           	</array>
+           	<key>LSMinimumSystemVersion</key>
+           	<string>10.13</string>
+           	<key>LSRequiresNativeExecution</key>
+           	<string>YES</string>
+           	<key>NSAppleEventsUsageDescription</key>
+           	<string>An application in Android Studio requests the ability to send Apple events.</string>
+           	<key>NSBluetoothAlwaysUsageDescription</key>
+           	<string>An application in Android Studio requests access to Bluetooth.</string>
+           	<key>NSCameraUsageDescription</key>
+           	<string>An application in Android Studio requests access to the device's camera.</string>
+           	<key>NSDesktopFolderUsageDescription</key>
+           	<string>An application in Android Studio requests access to the user's Desktop folder.</string>
+           	<key>NSDocumentsFolderUsageDescription</key>
+           	<string>An application in Android Studio requests access to the user's Documents folder.</string>
+           	<key>NSDownloadsFolderUsageDescription</key>
+           	<string>An application in Android Studio requests access to the user's Downloads folder.</string>
+           	<key>NSHighResolutionCapable</key>
+           	<true/>
+           	<key>NSLocalNetworkUsageDescription</key>
+           	<string>Android Studio's features, such as SSH and database connectivity, require permissions for accessing the local network and sending broadcast requests.</string>
+           	<key>NSLocationUsageDescription</key>
+           	<string>An application in Android Studio requests access to the user's location information.</string>
+           	<key>NSMicrophoneUsageDescription</key>
+           	<string>An application in Android Studio requests access to the device's microphone.</string>
+           	<key>NSNetworkVolumesUsageDescription</key>
+           	<string>An application in Android Studio requests access to files on a network volume.</string>
+           	<key>NSRemovableVolumesUsageDescription</key>
+           	<string>An application in Android Studio requests access to files on a removable volume.</string>
+           	<key>NSSupportsAutomaticGraphicsSwitching</key>
+           	<true/>
+           </dict>
+           </plist>
+[   +5 ms] executing: /Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java -version
+[  +66 ms] Exit code 0 from: /Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java -version
+[        ] openjdk version "21.0.10" 2026-01-20
+           OpenJDK Runtime Environment (build 21.0.10+-117844308-b1163.108)
+           OpenJDK 64-Bit Server VM (build 21.0.10+-117844308-b1163.108, mixed mode)
+[   +4 ms] Top-level Gradle build file not found, skipping migration of task "clean".
+[        ] executing: /Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java --version
+[  +63 ms] Exit code 0 from: /Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java --version
+[        ] openjdk 21.0.10 2026-01-20
+           OpenJDK Runtime Environment (build 21.0.10+-117844308-b1163.108)
+           OpenJDK 64-Bit Server VM (build 21.0.10+-117844308-b1163.108, mixed mode)
+[   +1 ms] Version of Java is different than impacted version, no migration attempted.
+[   +2 ms] CMake project not found, skipping support Android 15 16k page size migration.
+[   +2 ms] Using gradle from /Users/suzukiaakira/clean_test/clean_test2/android/gradlew.
+[  +12 ms] LocalFile: '/Users/suzukiaakira/clean_test/clean_test2/android/build.gradle.kts' doesn't provide an AGP version. Checking settings.
+[        ] LocalFile: '/Users/suzukiaakira/clean_test/clean_test2/android/settings.gradle.kts' provides AGP version: 8.11.1
+[  +18 ms] Running Gradle task 'assembleDebug'...
+[        ] executing: [/Users/suzukiaakira/clean_test/clean_test2/android/] /Users/suzukiaakira/clean_test/clean_test2/android/gradlew --full-stacktrace --info -Pverbose=true -Ptarget-platform=android-arm64 -Ptarget=/Users/suzukiaakira/clean_test/clean_test2/lib/main.dart -Pbase-application-name=android.app.Application -Pdart-defines=RkxVVFRFUl9WRVJTSU9OPTMuNDEuNw==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049Y2MwNzM0YWM3MQ==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NTlhYTU4NGZkZg==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMS41 -Pdart-obfuscation=false -Ptrack-widget-creation=true -Ptree-shake-icons=false -Pfilesystem-scheme=org-dartlang-root assembleDebug
+[ +392 ms] Initialized native services in: /Users/suzukiaakira/.gradle/native
+[        ] Initialized jansi services in: /Users/suzukiaakira/.gradle/native
+[ +214 ms] Found daemon DaemonInfo{pid=24179, address=[30f4dccf-f869-4996-8240-670a404d5d02 port:61462, addresses:[/127.0.0.1]], state=Idle, lastBusy=1777191894341, context=DefaultDaemonContext[uid=e5608c27-99ad-47b9-a9c6-d73e2a60397e,javaHome=/opt/homebrew/Cellar/openjdk@17/17.0.19/libexec/openjdk.jdk/Contents/Home,javaVersion=17,javaVendor=Homebrew,daemonRegistryDir=/Users/suzukiaakira/.gradle/daemon,pid=24179,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=4G,-XX:ReservedCodeCacheSize=512m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx8G,-Dfile.encoding=UTF-8,-Duser.country=JP,-Duser.language=ja,-Duser.variant]} however its context does not match the desired criteria.
+[        ] JVM is incompatible.
+[        ] Wanted: DaemonRequestContext{jvmCriteria=/Applications/Android Studio.app/Contents/jbr/Contents/Home (no JDK specified, using current Java home), daemonOpts=[-XX:MaxMetaspaceSize=4G, -XX:ReservedCodeCacheSize=512m, -XX:+HeapDumpOnOutOfMemoryError, -Xmx8G, -Dfile.encoding=UTF-8, -Duser.country=JP, -Duser.language=ja, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+[        ] Actual: DefaultDaemonContext[uid=e5608c27-99ad-47b9-a9c6-d73e2a60397e,javaHome=/opt/homebrew/Cellar/openjdk@17/17.0.19/libexec/openjdk.jdk/Contents/Home,javaVersion=17,javaVendor=Homebrew,daemonRegistryDir=/Users/suzukiaakira/.gradle/daemon,pid=24179,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=4G,-XX:ReservedCodeCacheSize=512m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx8G,-Dfile.encoding=UTF-8,-Duser.country=JP,-Duser.language=ja,-Duser.variant]
+[        ]   Looking for a different daemon...
+[   +1 ms] The client will now receive all logging from the daemon (pid: 11429). The daemon log file: /Users/suzukiaakira/.gradle/daemon/8.14/daemon-11429.out.log
+[        ] Starting 16th build in daemon [uptime: 1 hrs 10 mins 40.225 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 8 GiB, non-heap usage: 7% of 4 GiB]
+[        ] Using 10 worker leases.
+[        ] Now considering [/Users/suzukiaakira/clean_test/clean_test2/android, /Users/suzukiaakira/Desktop/my_app_final2/flutter/packages/flutter_tools/gradle] as hierarchies to watch
+[        ] Watching the file system is configured to be enabled if available
+[        ] File system watching is active
+[        ] Starting Build
+[        ] Now considering [/Users/suzukiaakira/Desktop/my_app_final2/flutter/packages/flutter_tools/gradle, /Users/suzukiaakira/clean_test/clean_test2/android] as hierarchies to watch
+[  +95 ms] > Configure project :gradle
+[        ] Evaluating project ':gradle' using build file '/Users/suzukiaakira/Desktop/my_app_final2/flutter/packages/flutter_tools/gradle/build.gradle.kts'.
+[        ] Resolved plugin [id: 'org.gradle.java-gradle-plugin']
+[        ] Resolved plugin [id: 'org.gradle.groovy']
+[        ] Resolved plugin [id: 'org.gradle.kotlin.kotlin-dsl', version: '5.2.0']
+[        ] Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '1.9.20']
+[        ] Using Kotlin Gradle Plugin gradle85 variant
+[        ] kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+[        ] kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+[        ] file or directory '/Users/suzukiaakira/Desktop/my_app_final2/flutter/packages/flutter_tools/gradle/src/main/java', not found
+[        ] Resolved plugin [id: 'dev.flutter.flutter-plugin-loader', version: '1.0.0']
+[        ] Resolved plugin [id: 'com.android.application', version: '8.11.1', apply: false]
+[        ] Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '2.2.20', apply: false]
+[        ] Resolve mutations for :gradle:checkKotlinGradlePluginConfigurationErrors (Thread[#2389,Execution worker,5,main]) started.
+[        ] :gradle:checkKotlinGradlePluginConfigurationErrors (Thread[#2389,Execution worker,5,main]) started.
+[        ] > Task :gradle:checkKotlinGradlePluginConfigurationErrors SKIPPED
+[        ] Skipping task ':gradle:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+[        ] Resolve mutations for :gradle:compileKotlin (Thread[#2389,Execution worker,5,main]) started.
+[        ] :gradle:compileKotlin (Thread[#2389,Execution worker,5,main]) started.
+[        ] > Task :gradle:compileKotlin UP-TO-DATE
+[        ] Caching disabled for task ':gradle:compileKotlin' because:
+[        ]   Build cache is disabled
+[        ]   Gradle does not know how file 'build/kotlin/compileKotlin/cacheable/caches-jvm/jvm 2' was created (output property 'taskBuildCacheableOutputDirectory$kotlin_gradle_plugin_common'). Task output caching requires exclusive access to output paths to guarantee correctness (i.e. multiple tasks are not allowed to produce output in the same location).
+[        ] Skipping task ':gradle:compileKotlin' as it is up-to-date.
+[        ] Resolve mutations for :gradle:compileJava (Thread[#2389,Execution worker,5,main]) started.
+[        ] :gradle:compileJava (Thread[#2389,Execution worker,5,main]) started.
+[        ] > Task :gradle:compileJava NO-SOURCE
+[        ] Skipping task ':gradle:compileJava' as it has no source files and no previous output files.
+[        ] Resolve mutations for :gradle:compileGroovy (Thread[#2389,Execution worker,5,main]) started.
+[        ] :gradle:compileGroovy (Thread[#2396,Execution worker Thread 8,5,main]) started.
+[        ] > Task :gradle:compileGroovy NO-SOURCE
+[        ] Skipping task ':gradle:compileGroovy' as it has no source files and no previous output files.
+[        ] Resolve mutations for :gradle:pluginDescriptors (Thread[#2396,Execution worker Thread 8,5,main]) started.
+[        ] :gradle:pluginDescriptors (Thread[#2388,included builds,5,main]) started.
+[        ] > Task :gradle:pluginDescriptors UP-TO-DATE
+[        ] Caching disabled for task ':gradle:pluginDescriptors' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:pluginDescriptors' as it is up-to-date.
+[        ] Resolve mutations for :gradle:processResources (Thread[#2388,included builds,5,main]) started.
+[        ] :gradle:processResources (Thread[#2397,Execution worker Thread 9,5,main]) started.
+[        ] > Task :gradle:processResources UP-TO-DATE
+[        ] Caching disabled for task ':gradle:processResources' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:processResources' as it is up-to-date.
+[        ] Resolve mutations for :gradle:classes (Thread[#2397,Execution worker Thread 9,5,main]) started.
+[        ] :gradle:classes (Thread[#2397,Execution worker Thread 9,5,main]) started.
+[        ] > Task :gradle:classes UP-TO-DATE
+[        ] Skipping task ':gradle:classes' as it has no actions.
+[        ] Resolve mutations for :gradle:jar (Thread[#2397,Execution worker Thread 9,5,main]) started.
+[        ] :gradle:jar (Thread[#2397,Execution worker Thread 9,5,main]) started.
+[        ] > Task :gradle:jar UP-TO-DATE
+[        ] Caching disabled for task ':gradle:jar' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:jar' as it is up-to-date.
+[        ] Settings evaluated using settings file '/Users/suzukiaakira/clean_test/clean_test2/android/settings.gradle.kts'.
+[        ] Projects loaded. Root project using build file '/Users/suzukiaakira/clean_test/clean_test2/android/build.gradle.kts'.
+[        ] Included projects: [root project 'android', project ':app', project ':cloud_firestore', project ':firebase_core']
+[        ] > Configure project :
+[        ] Evaluating root project 'android' using build file '/Users/suzukiaakira/clean_test/clean_test2/android/build.gradle.kts'.
+[        ] Resolved plugin [id: 'com.google.gms.google-services', version: '4.4.0', apply: false]
+[  +95 ms] > Configure project :app
+[        ] Evaluating project ':app' using build file '/Users/suzukiaakira/clean_test/clean_test2/android/app/build.gradle.kts'.
+[        ] Resolved plugin [id: 'com.android.application']
+[        ] Resolved plugin [id: 'org.jetbrains.kotlin.android']
+[        ] Resolved plugin [id: 'dev.flutter.flutter-gradle-plugin']
+[        ] Using default execution profile
+[        ] Build 89c18210-ff38-4b54-9728-05569ee20d48 is started
+[        ] Using Kotlin Gradle Plugin gradle813 variant
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/suzukiaakira/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/suzukiaakira/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/suzukiaakira/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/suzukiaakira/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/suzukiaakira/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/suzukiaakira/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/suzukiaakira/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/suzukiaakira/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/suzukiaakira/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/suzukiaakira/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/suzukiaakira/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/suzukiaakira/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/suzukiaakira/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/suzukiaakira/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/suzukiaakira/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/suzukiaakira/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/suzukiaakira/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/suzukiaakira/Library/Android/sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /Users/suzukiaakira/Library/Android/sdk
+[        ] > Configure project :cloud_firestore
+[        ] Evaluating project ':cloud_firestore' using build file '/Users/suzukiaakira/.pub-cache/hosted/pub.dev/cloud_firestore-6.3.0/android/build.gradle'.
+[        ] Using default execution profile
+[  +97 ms] > Configure project :firebase_core
+[        ] Evaluating project ':firebase_core' using build file '/Users/suzukiaakira/.pub-cache/hosted/pub.dev/firebase_core-4.7.0/android/build.gradle'.
+[        ] Using default execution profile
+[        ] All projects evaluated.
+[        ] Task name matched 'assembleDebug'
+[        ] Selected primary task 'assembleDebug' from project :
+[        ] Adding -Xuse-inline-scopes-numbers Kotlin compiler flag for task :app:compileDebugKotlin
+[        ] Tasks to be executed: [task ':app:DebugMinSdkCheck', task ':app:preBuild', task ':app:preDebugBuild', task ':app:mergeDebugNativeDebugMetadata', task ':app:checkKotlinGradlePluginConfigurationErrors', task ':app:compileFlutterBuildDebug', task ':app:packJniLibsflutterBuildDebug', task ':cloud_firestore:preBuild', task ':cloud_firestore:preDebugBuild', task ':cloud_firestore:writeDebugAarMetadata', task ':firebase_core:preBuild', task ':firebase_core:preDebugBuild', task ':firebase_core:writeDebugAarMetadata', task ':app:checkDebugAarMetadata', task ':app:cleanMergeDebugAssets', task ':app:mergeDebugShaders', task ':app:compileDebugShaders', task ':app:generateDebugAssets', task ':cloud_firestore:mergeDebugShaders', task ':cloud_firestore:compileDebugShaders', task ':cloud_firestore:generateDebugAssets', task ':cloud_firestore:mergeDebugAssets', task ':firebase_core:mergeDebugShaders', task ':firebase_core:compileDebugShaders', task ':firebase_core:generateDebugAssets', task ':firebase_core:mergeDebugAssets', task ':app:mergeDebugAssets', task ':app:copyFlutterAssetsDebug', task ':app:generateDebugResValues', task ':cloud_firestore:generateDebugResValues', task ':cloud_firestore:generateDebugResources', task ':cloud_firestore:packageDebugResources', task ':firebase_core:generateDebugResValues', task ':firebase_core:generateDebugResources', task ':firebase_core:packageDebugResources', task ':app:mapDebugSourceSetPaths', task ':app:generateDebugResources', task ':app:mergeDebugResources', task ':app:packageDebugResources', task ':app:parseDebugLocalResources', task ':app:createDebugCompatibleScreenManifests', task ':app:extractDeepLinksDebug', task ':cloud_firestore:extractDeepLinksDebug', task ':cloud_firestore:processDebugManifest', task ':firebase_core:extractDeepLinksDebug', task ':firebase_core:processDebugManifest', task ':app:processDebugMainManifest', task ':app:outputDebugAppLinkSettings', task ':app:processDebugManifest', task ':app:processDebugManifestForPackage', task ':cloud_firestore:compileDebugLibraryResources', task ':cloud_firestore:parseDebugLocalResources', task ':cloud_firestore:generateDebugRFile', task ':firebase_core:compileDebugLibraryResources', task ':firebase_core:parseDebugLocalResources', task ':firebase_core:generateDebugRFile', task ':app:processDebugResources', task ':cloud_firestore:generateDebugBuildConfig', task ':cloud_firestore:javaPreCompileDebug', task ':firebase_core:generateDebugBuildConfig', task ':firebase_core:javaPreCompileDebug', task ':firebase_core:compileDebugJavaWithJavac', task ':firebase_core:bundleLibCompileToJarDebug', task ':cloud_firestore:compileDebugJavaWithJavac', task ':cloud_firestore:bundleLibCompileToJarDebug', task ':app:compileDebugKotlin', task ':app:javaPreCompileDebug', task ':app:compileDebugJavaWithJavac', task ':app:compressDebugAssets', task ':cloud_firestore:bundleLibRuntimeToJarDebug', task ':firebase_core:bundleLibRuntimeToJarDebug', task ':app:desugarDebugFileDependencies', task ':app:dexBuilderDebug', task ':app:mergeDebugGlobalSynthetics', task ':app:processDebugJavaRes', task ':cloud_firestore:processDebugJavaRes', task ':firebase_core:processDebugJavaRes', task ':app:mergeDebugJavaResource', task ':app:checkDebugDuplicateClasses', task ':app:mergeExtDexDebug', task ':cloud_firestore:bundleLibRuntimeToDirDebug', task ':firebase_core:bundleLibRuntimeToDirDebug', task ':app:mergeLibDexDebug', task ':app:mergeProjectDexDebug', task ':app:configureCMakeDebug[arm64-v8a]', task ':app:buildCMakeDebug[arm64-v8a]', task ':app:configureCMakeDebug[armeabi-v7a]', task ':app:buildCMakeDebug[armeabi-v7a]', task ':app:configureCMakeDebug[x86_64]', task ':app:buildCMakeDebug[x86_64]', task ':app:mergeDebugJniLibFolders', task ':cloud_firestore:mergeDebugJniLibFolders', task ':cloud_firestore:mergeDebugNativeLibs', task ':cloud_firestore:copyDebugJniLibsProjectOnly', task ':firebase_core:mergeDebugJniLibFolders', task ':firebase_core:mergeDebugNativeLibs', task ':firebase_core:copyDebugJniLibsProjectOnly', task ':app:mergeDebugNativeLibs', task ':app:stripDebugDebugSymbols', task ':app:validateSigningDebug', task ':app:writeDebugAppMetadata', task ':app:writeDebugSigningConfigVersions', task ':app:packageDebug', task ':app:createDebugApkListingFileRedirect', task ':app:assembleDebug', task ':cloud_firestore:stripDebugDebugSymbols', task ':cloud_firestore:copyDebugJniLibsProjectAndLocalJars', task ':cloud_firestore:extractDebugAnnotations', task ':cloud_firestore:extractDeepLinksForAarDebug', task ':cloud_firestore:mergeDebugGeneratedProguardFiles', task ':cloud_firestore:mergeDebugConsumerProguardFiles', task ':cloud_firestore:prepareDebugArtProfile', task ':cloud_firestore:prepareLintJarForPublish', task ':cloud_firestore:mergeDebugJavaResource', task ':cloud_firestore:syncDebugLibJars', task ':cloud_firestore:bundleDebugAar', task ':cloud_firestore:assembleDebug', task ':firebase_core:stripDebugDebugSymbols', task ':firebase_core:copyDebugJniLibsProjectAndLocalJars', task ':firebase_core:extractDebugAnnotations', task ':firebase_core:extractDeepLinksForAarDebug', task ':firebase_core:mergeDebugGeneratedProguardFiles', task ':firebase_core:mergeDebugConsumerProguardFiles', task ':firebase_core:prepareDebugArtProfile', task ':firebase_core:prepareLintJarForPublish', task ':firebase_core:mergeDebugJavaResource', task ':firebase_core:syncDebugLibJars', task ':firebase_core:bundleDebugAar', task ':firebase_core:assembleDebug']
+[        ] Tasks that were excluded: []
+[        ] work action Parameters of IdentityTransform (Thread[#2388,included builds,5,main]) started.
+[        ] work action Parameters of DexingNoClasspathTransform (Thread[#2388,included builds,5,main]) started.
+[        ] work action Parameters of DexingOutputSplitTransform (Thread[#2388,included builds,5,main]) started.
+[        ] work action Parameters of ClassesDirToClassesTransform (Thread[#2390,Execution worker Thread 2,5,main]) started.
+[        ] work action Parameters of DexingOutputSplitTransform (Thread[#2390,Execution worker Thread 2,5,main]) started.
+[        ] Resolve mutations for :app:DebugMinSdkCheck (Thread[#2396,Execution worker Thread 8,5,main]) started.
+[        ] :app:DebugMinSdkCheck (Thread[#2396,Execution worker Thread 8,5,main]) started.
+[        ] > Task :app:DebugMinSdkCheck
+[        ] Caching disabled for task ':app:DebugMinSdkCheck' because:
+[        ]   Build cache is disabled
+[        ] Task ':app:DebugMinSdkCheck' is not up-to-date because:
+[        ]   Task has not declared any outputs despite executing actions.
+[        ] Resolve mutations for :app:preBuild (Thread[#2396,Execution worker Thread 8,5,main]) started.
+[        ] :app:preBuild (Thread[#2391,Execution worker Thread 3,5,main]) started.
+[        ] > Task :app:preBuild UP-TO-DATE
+[        ] Skipping task ':app:preBuild' as it has no actions.
+[        ] Resolve mutations for :app:preDebugBuild (Thread[#2391,Execution worker Thread 3,5,main]) started.
+[        ] :app:preDebugBuild (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] > Task :app:preDebugBuild UP-TO-DATE
+[        ] Skipping task ':app:preDebugBuild' as it has no actions.
+[        ] Resolve mutations for :app:mergeDebugNativeDebugMetadata (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] :app:mergeDebugNativeDebugMetadata (Thread[#2394,Execution worker Thread 6,5,main]) started.
+[        ] > Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+[        ] Skipping task ':app:mergeDebugNativeDebugMetadata' as it has no source files and no previous output files.
+[        ] Resolve mutations for :app:checkKotlinGradlePluginConfigurationErrors (Thread[#2394,Execution worker Thread 6,5,main]) started.
+[        ] :app:checkKotlinGradlePluginConfigurationErrors (Thread[#2389,Execution worker,5,main]) started.
+[        ] > Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+[        ] Skipping task ':app:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+[        ] Resolve mutations for :app:compileFlutterBuildDebug (Thread[#2392,Execution worker Thread 4,5,main]) started.
+[        ] :app:compileFlutterBuildDebug (Thread[#2392,Execution worker Thread 4,5,main]) started.
+[        ] > Task :app:compileFlutterBuildDebug UP-TO-DATE
+[        ] Caching disabled for task ':app:compileFlutterBuildDebug' because:
+[        ]   Build cache is disabled
+[        ]   Caching has not been enabled for the task
+[        ] Skipping task ':app:compileFlutterBuildDebug' as it is up-to-date.
+[        ] Resolve mutations for :app:packJniLibsflutterBuildDebug (Thread[#2392,Execution worker Thread 4,5,main]) started.
+[        ] :app:packJniLibsflutterBuildDebug (Thread[#2392,Execution worker Thread 4,5,main]) started.
+[        ] > Task :app:packJniLibsflutterBuildDebug UP-TO-DATE
+[        ] Caching disabled for task ':app:packJniLibsflutterBuildDebug' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':app:packJniLibsflutterBuildDebug' as it is up-to-date.
+[        ] Resolve mutations for :cloud_firestore:preBuild (Thread[#2392,Execution worker Thread 4,5,main]) started.
+[        ] :cloud_firestore:preBuild (Thread[#2392,Execution worker Thread 4,5,main]) started.
+[        ] > Task :cloud_firestore:preBuild UP-TO-DATE
+[        ] Skipping task ':cloud_firestore:preBuild' as it has no actions.
+[        ] Resolve mutations for :cloud_firestore:preDebugBuild (Thread[#2392,Execution worker Thread 4,5,main]) started.
+[        ] :cloud_firestore:preDebugBuild (Thread[#2392,Execution worker Thread 4,5,main]) started.
+[        ] > Task :cloud_firestore:preDebugBuild UP-TO-DATE
+[        ] Skipping task ':cloud_firestore:preDebugBuild' as it has no actions.
+[        ] Resolve mutations for :cloud_firestore:writeDebugAarMetadata (Thread[#2392,Execution worker Thread 4,5,main]) started.
+[        ] :cloud_firestore:writeDebugAarMetadata (Thread[#2392,Execution worker Thread 4,5,main]) started.
+[        ] > Task :cloud_firestore:writeDebugAarMetadata UP-TO-DATE
+[        ] Caching disabled for task ':cloud_firestore:writeDebugAarMetadata' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':cloud_firestore:writeDebugAarMetadata' as it is up-to-date.
+[        ] work action resolve aar-metadata.properties (project :cloud_firestore) (Thread[#2392,Execution worker Thread 4,5,main]) started.
+[        ] Resolve mutations for :firebase_core:preBuild (Thread[#2392,Execution worker Thread 4,5,main]) started.
+[        ] :firebase_core:preBuild (Thread[#2392,Execution worker Thread 4,5,main]) started.
+[        ] > Task :firebase_core:preBuild UP-TO-DATE
+[        ] Skipping task ':firebase_core:preBuild' as it has no actions.
+[        ] Resolve mutations for :firebase_core:preDebugBuild (Thread[#2392,Execution worker Thread 4,5,main]) started.
+[        ] :firebase_core:preDebugBuild (Thread[#2391,Execution worker Thread 3,5,main]) started.
+[        ] > Task :firebase_core:preDebugBuild UP-TO-DATE
+[        ] Skipping task ':firebase_core:preDebugBuild' as it has no actions.
+[        ] Resolve mutations for :firebase_core:writeDebugAarMetadata (Thread[#2391,Execution worker Thread 3,5,main]) started.
+[        ] :firebase_core:writeDebugAarMetadata (Thread[#2391,Execution worker Thread 3,5,main]) started.
+[        ] > Task :firebase_core:writeDebugAarMetadata UP-TO-DATE
+[        ] Caching disabled for task ':firebase_core:writeDebugAarMetadata' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':firebase_core:writeDebugAarMetadata' as it is up-to-date.
+[        ] work action resolve aar-metadata.properties (project :firebase_core) (Thread[#2391,Execution worker Thread 3,5,main]) started.
+[        ] Resolve mutations for :app:checkDebugAarMetadata (Thread[#2391,Execution worker Thread 3,5,main]) started.
+[        ] :app:checkDebugAarMetadata (Thread[#2391,Execution worker Thread 3,5,main]) started.
+[  +96 ms] > Task :app:checkDebugAarMetadata UP-TO-DATE
+[        ] Caching disabled for task ':app:checkDebugAarMetadata' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:checkDebugAarMetadata' as it is up-to-date.
+[        ] Resolve mutations for :app:cleanMergeDebugAssets (Thread[#2391,Execution worker Thread 3,5,main]) started.
+[        ] :app:cleanMergeDebugAssets (Thread[#2391,Execution worker Thread 3,5,main]) started.
+[        ] > Task :app:cleanMergeDebugAssets
+[        ] Caching disabled for task ':app:cleanMergeDebugAssets' because:
+[        ]   Build cache is disabled
+[        ] Task ':app:cleanMergeDebugAssets' is not up-to-date because:
+[        ]   Task has not declared any outputs despite executing actions.
+[        ] Resolve mutations for :app:mergeDebugShaders (Thread[#2391,Execution worker Thread 3,5,main]) started.
+[        ] :app:mergeDebugShaders (Thread[#2391,Execution worker Thread 3,5,main]) started.
+[        ] > Task :app:mergeDebugShaders UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeDebugShaders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':app:mergeDebugShaders' as it is up-to-date.
+[        ] Resolve mutations for :app:compileDebugShaders (Thread[#2391,Execution worker Thread 3,5,main]) started.
+[        ] :app:compileDebugShaders (Thread[#2391,Execution worker Thread 3,5,main]) started.
+[        ] > Task :app:compileDebugShaders NO-SOURCE
+[        ] Skipping task ':app:compileDebugShaders' as it has no source files and no previous output files.
+[        ] Resolve mutations for :app:generateDebugAssets (Thread[#2391,Execution worker Thread 3,5,main]) started.
+[        ] :app:generateDebugAssets (Thread[#2391,Execution worker Thread 3,5,main]) started.
+[        ] > Task :app:generateDebugAssets UP-TO-DATE
+[        ] Skipping task ':app:generateDebugAssets' as it has no actions.
+[        ] Resolve mutations for :cloud_firestore:mergeDebugShaders (Thread[#2391,Execution worker Thread 3,5,main]) started.
+[        ] :cloud_firestore:mergeDebugShaders (Thread[#2391,Execution worker Thread 3,5,main]) started.
+[        ] > Task :cloud_firestore:mergeDebugShaders UP-TO-DATE
+[        ] Caching disabled for task ':cloud_firestore:mergeDebugShaders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':cloud_firestore:mergeDebugShaders' as it is up-to-date.
+[        ] Resolve mutations for :cloud_firestore:compileDebugShaders (Thread[#2391,Execution worker Thread 3,5,main]) started.
+[        ] :cloud_firestore:compileDebugShaders (Thread[#2391,Execution worker Thread 3,5,main]) started.
+[        ] > Task :cloud_firestore:compileDebugShaders NO-SOURCE
+[        ] Skipping task ':cloud_firestore:compileDebugShaders' as it has no source files and no previous output files.
+[        ] Resolve mutations for :cloud_firestore:generateDebugAssets (Thread[#2391,Execution worker Thread 3,5,main]) started.
+[        ] :cloud_firestore:generateDebugAssets (Thread[#2391,Execution worker Thread 3,5,main]) started.
+[        ] > Task :cloud_firestore:generateDebugAssets UP-TO-DATE
+[        ] Skipping task ':cloud_firestore:generateDebugAssets' as it has no actions.
+[        ] Resolve mutations for :cloud_firestore:mergeDebugAssets (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] :cloud_firestore:mergeDebugAssets (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] > Task :cloud_firestore:mergeDebugAssets UP-TO-DATE
+[        ] Caching disabled for task ':cloud_firestore:mergeDebugAssets' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':cloud_firestore:mergeDebugAssets' as it is up-to-date.
+[        ] work action resolve mergeDebugAssets (project :cloud_firestore) (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] Resolve mutations for :firebase_core:mergeDebugShaders (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] :firebase_core:mergeDebugShaders (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] > Task :firebase_core:mergeDebugShaders UP-TO-DATE
+[        ] Caching disabled for task ':firebase_core:mergeDebugShaders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':firebase_core:mergeDebugShaders' as it is up-to-date.
+[        ] Resolve mutations for :firebase_core:compileDebugShaders (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] :firebase_core:compileDebugShaders (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] > Task :firebase_core:compileDebugShaders NO-SOURCE
+[        ] Skipping task ':firebase_core:compileDebugShaders' as it has no source files and no previous output files.
+[        ] Resolve mutations for :firebase_core:generateDebugAssets (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] :firebase_core:generateDebugAssets (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] > Task :firebase_core:generateDebugAssets UP-TO-DATE
+[        ] Skipping task ':firebase_core:generateDebugAssets' as it has no actions.
+[        ] Resolve mutations for :firebase_core:mergeDebugAssets (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] :firebase_core:mergeDebugAssets (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] > Task :firebase_core:mergeDebugAssets UP-TO-DATE
+[        ] Caching disabled for task ':firebase_core:mergeDebugAssets' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':firebase_core:mergeDebugAssets' as it is up-to-date.
+[        ] work action resolve mergeDebugAssets (project :firebase_core) (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] Resolve mutations for :app:mergeDebugAssets (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] :app:mergeDebugAssets (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] > Task :app:mergeDebugAssets
+[        ] Caching disabled for task ':app:mergeDebugAssets' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Task ':app:mergeDebugAssets' is not up-to-date because:
+[        ]   Output property 'outputDir' file /Users/suzukiaakira/clean_test/clean_test2/android/app/build/intermediates/assets/debug/mergeDebugAssets has been removed.
+[        ] The input changes require a full rebuild for incremental task ':app:mergeDebugAssets'.
+[        ] Resolve mutations for :app:copyFlutterAssetsDebug (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] :app:copyFlutterAssetsDebug (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[  +97 ms] > Task :app:copyFlutterAssetsDebug
+[        ] Caching disabled for task ':app:copyFlutterAssetsDebug' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Task ':app:copyFlutterAssetsDebug' is not up-to-date because:
+[        ]   Output property 'destinationDir' file /Users/suzukiaakira/clean_test/clean_test2/android/app/build/intermediates/assets/debug/mergeDebugAssets/flutter_assets has been removed.
+[        ]   Output property 'destinationDir' file /Users/suzukiaakira/clean_test/clean_test2/android/app/build/intermediates/assets/debug/mergeDebugAssets/flutter_assets/AssetManifest.bin has been removed.
+[        ]   Output property 'destinationDir' file /Users/suzukiaakira/clean_test/clean_test2/android/app/build/intermediates/assets/debug/mergeDebugAssets/flutter_assets/FontManifest.json has been removed.
+[        ]   and more...
+[        ] Resolve mutations for :app:generateDebugResValues (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] :app:generateDebugResValues (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] > Task :app:generateDebugResValues UP-TO-DATE
+[        ] Caching disabled for task ':app:generateDebugResValues' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:generateDebugResValues' as it is up-to-date.
+[        ] Resolve mutations for :cloud_firestore:generateDebugResValues (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] :cloud_firestore:generateDebugResValues (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] > Task :cloud_firestore:generateDebugResValues UP-TO-DATE
+[        ] Caching disabled for task ':cloud_firestore:generateDebugResValues' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':cloud_firestore:generateDebugResValues' as it is up-to-date.
+[        ] Resolve mutations for :cloud_firestore:generateDebugResources (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] :cloud_firestore:generateDebugResources (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] > Task :cloud_firestore:generateDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':cloud_firestore:generateDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':cloud_firestore:generateDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :cloud_firestore:packageDebugResources (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] :cloud_firestore:packageDebugResources (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] > Task :cloud_firestore:packageDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':cloud_firestore:packageDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':cloud_firestore:packageDebugResources' as it is up-to-date.
+[        ] work action resolve packageDebugResources (project :cloud_firestore) (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] Resolve mutations for :firebase_core:generateDebugResValues (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] :firebase_core:generateDebugResValues (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] > Task :firebase_core:generateDebugResValues UP-TO-DATE
+[        ] Caching disabled for task ':firebase_core:generateDebugResValues' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':firebase_core:generateDebugResValues' as it is up-to-date.
+[        ] Resolve mutations for :firebase_core:generateDebugResources (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] :firebase_core:generateDebugResources (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] > Task :firebase_core:generateDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':firebase_core:generateDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':firebase_core:generateDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :firebase_core:packageDebugResources (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] :firebase_core:packageDebugResources (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] > Task :firebase_core:packageDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':firebase_core:packageDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':firebase_core:packageDebugResources' as it is up-to-date.
+[        ] work action resolve packageDebugResources (project :firebase_core) (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] Resolve mutations for :app:mapDebugSourceSetPaths (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] :app:mapDebugSourceSetPaths (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] > Task :app:mapDebugSourceSetPaths UP-TO-DATE
+[        ] Caching disabled for task ':app:mapDebugSourceSetPaths' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:mapDebugSourceSetPaths' as it is up-to-date.
+[        ] Resolve mutations for :app:generateDebugResources (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] :app:generateDebugResources (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] > Task :app:generateDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':app:generateDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:generateDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :app:mergeDebugResources (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] :app:mergeDebugResources (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] > Task :app:mergeDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:mergeDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :app:packageDebugResources (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] :app:packageDebugResources (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] > Task :app:packageDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':app:packageDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:packageDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :app:parseDebugLocalResources (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] :app:parseDebugLocalResources (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] > Task :app:parseDebugLocalResources UP-TO-DATE
+[        ] Caching disabled for task ':app:parseDebugLocalResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:parseDebugLocalResources' as it is up-to-date.
+[        ] Resolve mutations for :app:createDebugCompatibleScreenManifests (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] :app:createDebugCompatibleScreenManifests (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] > Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+[        ] Caching disabled for task ':app:createDebugCompatibleScreenManifests' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:createDebugCompatibleScreenManifests' as it is up-to-date.
+[        ] Resolve mutations for :app:extractDeepLinksDebug (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] :app:extractDeepLinksDebug (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] > Task :app:extractDeepLinksDebug UP-TO-DATE
+[        ] Caching disabled for task ':app:extractDeepLinksDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:extractDeepLinksDebug' as it is up-to-date.
+[        ] Resolve mutations for :cloud_firestore:extractDeepLinksDebug (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] :cloud_firestore:extractDeepLinksDebug (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] > Task :cloud_firestore:extractDeepLinksDebug UP-TO-DATE
+[        ] Caching disabled for task ':cloud_firestore:extractDeepLinksDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':cloud_firestore:extractDeepLinksDebug' as it is up-to-date.
+[        ] work action resolve navigation.json (project :cloud_firestore) (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] Resolve mutations for :cloud_firestore:processDebugManifest (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] :cloud_firestore:processDebugManifest (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] > Task :cloud_firestore:processDebugManifest UP-TO-DATE
+[        ] Caching disabled for task ':cloud_firestore:processDebugManifest' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':cloud_firestore:processDebugManifest' as it is up-to-date.
+[        ] work action resolve AndroidManifest.xml (project :cloud_firestore) (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] Resolve mutations for :firebase_core:extractDeepLinksDebug (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] :firebase_core:extractDeepLinksDebug (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] > Task :firebase_core:extractDeepLinksDebug UP-TO-DATE
+[        ] Caching disabled for task ':firebase_core:extractDeepLinksDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':firebase_core:extractDeepLinksDebug' as it is up-to-date.
+[        ] work action resolve navigation.json (project :firebase_core) (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] Resolve mutations for :firebase_core:processDebugManifest (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] :firebase_core:processDebugManifest (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] > Task :firebase_core:processDebugManifest UP-TO-DATE
+[        ] Caching disabled for task ':firebase_core:processDebugManifest' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':firebase_core:processDebugManifest' as it is up-to-date.
+[        ] work action resolve AndroidManifest.xml (project :firebase_core) (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] Resolve mutations for :app:processDebugMainManifest (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] :app:processDebugMainManifest (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] > Task :app:processDebugMainManifest UP-TO-DATE
+[        ] Caching disabled for task ':app:processDebugMainManifest' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:processDebugMainManifest' as it is up-to-date.
+[        ] Resolve mutations for :app:outputDebugAppLinkSettings (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] :app:outputDebugAppLinkSettings (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] > Task :app:outputDebugAppLinkSettings UP-TO-DATE
+[        ] Caching disabled for task ':app:outputDebugAppLinkSettings' because:
+[        ]   Build cache is disabled
+[        ]   Caching has not been enabled for the task
+[        ] Skipping task ':app:outputDebugAppLinkSettings' as it is up-to-date.
+[        ] Resolve mutations for :app:processDebugManifest (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] :app:processDebugManifest (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] > Task :app:processDebugManifest UP-TO-DATE
+[        ] Caching disabled for task ':app:processDebugManifest' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:processDebugManifest' as it is up-to-date.
+[        ] Resolve mutations for :app:processDebugManifestForPackage (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] :app:processDebugManifestForPackage (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] > Task :app:processDebugManifestForPackage UP-TO-DATE
+[        ] Custom actions are attached to task ':app:processDebugManifestForPackage'.
+[        ] Caching disabled for task ':app:processDebugManifestForPackage' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:processDebugManifestForPackage' as it is up-to-date.
+[        ] Resolve mutations for :cloud_firestore:compileDebugLibraryResources (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] :cloud_firestore:compileDebugLibraryResources (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] > Task :cloud_firestore:compileDebugLibraryResources UP-TO-DATE
+[        ] Caching disabled for task ':cloud_firestore:compileDebugLibraryResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':cloud_firestore:compileDebugLibraryResources' as it is up-to-date.
+[        ] work action resolve out (project :cloud_firestore) (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] Resolve mutations for :cloud_firestore:parseDebugLocalResources (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] :cloud_firestore:parseDebugLocalResources (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] > Task :cloud_firestore:parseDebugLocalResources UP-TO-DATE
+[        ] Caching disabled for task ':cloud_firestore:parseDebugLocalResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':cloud_firestore:parseDebugLocalResources' as it is up-to-date.
+[        ] Resolve mutations for :cloud_firestore:generateDebugRFile (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] :cloud_firestore:generateDebugRFile (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] > Task :cloud_firestore:generateDebugRFile UP-TO-DATE
+[        ] Caching disabled for task ':cloud_firestore:generateDebugRFile' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':cloud_firestore:generateDebugRFile' as it is up-to-date.
+[        ] work action resolve package-aware-r.txt (project :cloud_firestore) (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] Resolve mutations for :firebase_core:compileDebugLibraryResources (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] :firebase_core:compileDebugLibraryResources (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] > Task :firebase_core:compileDebugLibraryResources UP-TO-DATE
+[        ] Caching disabled for task ':firebase_core:compileDebugLibraryResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':firebase_core:compileDebugLibraryResources' as it is up-to-date.
+[        ] work action resolve out (project :firebase_core) (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] Resolve mutations for :firebase_core:parseDebugLocalResources (Thread[#2393,Execution worker Thread 5,5,main]) started.
+[        ] :firebase_core:parseDebugLocalResources (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] > Task :firebase_core:parseDebugLocalResources UP-TO-DATE
+[        ] Caching disabled for task ':firebase_core:parseDebugLocalResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':firebase_core:parseDebugLocalResources' as it is up-to-date.
+[        ] Resolve mutations for :firebase_core:generateDebugRFile (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] :firebase_core:generateDebugRFile (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] > Task :firebase_core:generateDebugRFile UP-TO-DATE
+[        ] Caching disabled for task ':firebase_core:generateDebugRFile' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':firebase_core:generateDebugRFile' as it is up-to-date.
+[        ] work action resolve package-aware-r.txt (project :firebase_core) (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] Resolve mutations for :app:processDebugResources (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] :app:processDebugResources (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[  +93 ms] > Task :app:processDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':app:processDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:processDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :cloud_firestore:generateDebugBuildConfig (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] :cloud_firestore:generateDebugBuildConfig (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] > Task :cloud_firestore:generateDebugBuildConfig UP-TO-DATE
+[        ] Caching disabled for task ':cloud_firestore:generateDebugBuildConfig' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':cloud_firestore:generateDebugBuildConfig' as it is up-to-date.
+[        ] Resolve mutations for :cloud_firestore:javaPreCompileDebug (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] :cloud_firestore:javaPreCompileDebug (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] > Task :cloud_firestore:javaPreCompileDebug UP-TO-DATE
+[        ] Caching disabled for task ':cloud_firestore:javaPreCompileDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':cloud_firestore:javaPreCompileDebug' as it is up-to-date.
+[        ] Resolve mutations for :firebase_core:generateDebugBuildConfig (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] :firebase_core:generateDebugBuildConfig (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] > Task :firebase_core:generateDebugBuildConfig UP-TO-DATE
+[        ] Caching disabled for task ':firebase_core:generateDebugBuildConfig' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':firebase_core:generateDebugBuildConfig' as it is up-to-date.
+[        ] Resolve mutations for :firebase_core:javaPreCompileDebug (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] :firebase_core:javaPreCompileDebug (Thread[#2397,Execution worker Thread 9,5,main]) started.
+[        ] > Task :firebase_core:javaPreCompileDebug UP-TO-DATE
+[        ] Caching disabled for task ':firebase_core:javaPreCompileDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':firebase_core:javaPreCompileDebug' as it is up-to-date.
+[        ] Resolve mutations for :firebase_core:compileDebugJavaWithJavac (Thread[#2397,Execution worker Thread 9,5,main]) started.
+[        ] :firebase_core:compileDebugJavaWithJavac (Thread[#2397,Execution worker Thread 9,5,main]) started.
+[        ] > Task :firebase_core:compileDebugJavaWithJavac UP-TO-DATE
+[        ] Custom actions are attached to task ':firebase_core:compileDebugJavaWithJavac'.
+[        ] Caching disabled for task ':firebase_core:compileDebugJavaWithJavac' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':firebase_core:compileDebugJavaWithJavac' as it is up-to-date.
+[        ] No compile result for :firebase_core:compileDebugJavaWithJavac
+[        ] No compile result for :firebase_core:compileDebugJavaWithJavac
+[        ] Resolve mutations for :firebase_core:bundleLibCompileToJarDebug (Thread[#2397,Execution worker Thread 9,5,main]) started.
+[        ] :firebase_core:bundleLibCompileToJarDebug (Thread[#2397,Execution worker Thread 9,5,main]) started.
+[        ] > Task :firebase_core:bundleLibCompileToJarDebug UP-TO-DATE
+[        ] Caching disabled for task ':firebase_core:bundleLibCompileToJarDebug' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':firebase_core:bundleLibCompileToJarDebug' as it is up-to-date.
+[        ] work action resolve classes.jar (project :firebase_core) (Thread[#2397,Execution worker Thread 9,5,main]) started.
+[        ] Resolve mutations for :cloud_firestore:compileDebugJavaWithJavac (Thread[#2397,Execution worker Thread 9,5,main]) started.
+[        ] :cloud_firestore:compileDebugJavaWithJavac (Thread[#2397,Execution worker Thread 9,5,main]) started.
+[        ] > Task :cloud_firestore:compileDebugJavaWithJavac UP-TO-DATE
+[        ] Custom actions are attached to task ':cloud_firestore:compileDebugJavaWithJavac'.
+[        ] Caching disabled for task ':cloud_firestore:compileDebugJavaWithJavac' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':cloud_firestore:compileDebugJavaWithJavac' as it is up-to-date.
+[        ] No compile result for :cloud_firestore:compileDebugJavaWithJavac
+[        ] No compile result for :cloud_firestore:compileDebugJavaWithJavac
+[        ] Resolve mutations for :cloud_firestore:bundleLibCompileToJarDebug (Thread[#2397,Execution worker Thread 9,5,main]) started.
+[        ] :cloud_firestore:bundleLibCompileToJarDebug (Thread[#2397,Execution worker Thread 9,5,main]) started.
+[        ] > Task :cloud_firestore:bundleLibCompileToJarDebug UP-TO-DATE
+[        ] Caching disabled for task ':cloud_firestore:bundleLibCompileToJarDebug' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':cloud_firestore:bundleLibCompileToJarDebug' as it is up-to-date.
+[        ] work action resolve classes.jar (project :cloud_firestore) (Thread[#2397,Execution worker Thread 9,5,main]) started.
+[        ] Resolve mutations for :app:compileDebugKotlin (Thread[#2397,Execution worker Thread 9,5,main]) started.
+[        ] :app:compileDebugKotlin (Thread[#2397,Execution worker Thread 9,5,main]) started.
+[        ] > Task :app:compileDebugKotlin UP-TO-DATE
+[        ] Adding -Xuse-inline-scopes-numbers Kotlin compiler flag for task :app:compileDebugAndroidTestKotlin
+[        ] Caching disabled for task ':app:compileDebugKotlin' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:compileDebugKotlin' as it is up-to-date.
+[        ] Resolve mutations for :app:javaPreCompileDebug (Thread[#2397,Execution worker Thread 9,5,main]) started.
+[        ] :app:javaPreCompileDebug (Thread[#2397,Execution worker Thread 9,5,main]) started.
+[        ] > Task :app:javaPreCompileDebug UP-TO-DATE
+[        ] Caching disabled for task ':app:javaPreCompileDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:javaPreCompileDebug' as it is up-to-date.
+[        ] Resolve mutations for :app:compileDebugJavaWithJavac (Thread[#2397,Execution worker Thread 9,5,main]) started.
+[        ] :app:compileDebugJavaWithJavac (Thread[#2397,Execution worker Thread 9,5,main]) started.
+[        ] > Task :app:compileDebugJavaWithJavac UP-TO-DATE
+[        ] Custom actions are attached to task ':app:compileDebugJavaWithJavac'.
+[        ] Caching disabled for task ':app:compileDebugJavaWithJavac' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:compileDebugJavaWithJavac' as it is up-to-date.
+[        ] No compile result for :app:compileDebugJavaWithJavac
+[        ] No compile result for :app:compileDebugJavaWithJavac
+[        ] Resolve mutations for :app:compressDebugAssets (Thread[#2397,Execution worker Thread 9,5,main]) started.
+[        ] :app:compressDebugAssets (Thread[#2397,Execution worker Thread 9,5,main]) started.
+[        ] > Task :app:compressDebugAssets UP-TO-DATE
+[        ] Caching disabled for task ':app:compressDebugAssets' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:compressDebugAssets' as it is up-to-date.
+[        ] Resolve mutations for :cloud_firestore:bundleLibRuntimeToJarDebug (Thread[#2397,Execution worker Thread 9,5,main]) started.
+[        ] :cloud_firestore:bundleLibRuntimeToJarDebug (Thread[#2397,Execution worker Thread 9,5,main]) started.
+[        ] > Task :cloud_firestore:bundleLibRuntimeToJarDebug UP-TO-DATE
+[        ] Caching disabled for task ':cloud_firestore:bundleLibRuntimeToJarDebug' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':cloud_firestore:bundleLibRuntimeToJarDebug' as it is up-to-date.
+[        ] work action resolve classes.jar (project :cloud_firestore) (Thread[#2397,Execution worker Thread 9,5,main]) started.
+[        ] IdentityTransform (Thread[#2397,Execution worker Thread 9,5,main]) started.
+[        ] Resolve mutations for :firebase_core:bundleLibRuntimeToJarDebug (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] DexingNoClasspathTransform (Thread[#2397,Execution worker Thread 9,5,main]) started.
+[        ] :firebase_core:bundleLibRuntimeToJarDebug (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] > Task :firebase_core:bundleLibRuntimeToJarDebug UP-TO-DATE
+[        ] Caching disabled for task ':firebase_core:bundleLibRuntimeToJarDebug' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':firebase_core:bundleLibRuntimeToJarDebug' as it is up-to-date.
+[        ] work action resolve classes.jar (project :firebase_core) (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] IdentityTransform (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] Resolve mutations for :app:desugarDebugFileDependencies (Thread[#2389,Execution worker,5,main]) started.
+[        ] DexingNoClasspathTransform (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] :app:desugarDebugFileDependencies (Thread[#2389,Execution worker,5,main]) started.
+[        ] > Transform classes.jar (project :cloud_firestore) with DexingNoClasspathTransform
+[        ] Caching disabled for DexingNoClasspathTransform: /Users/suzukiaakira/.pub-cache/hosted/pub.dev/cloud_firestore-6.3.0/android/build/intermediates/runtime_library_classes_jar/debug/bundleLibRuntimeToJarDebug/classes.jar because:
+[        ]   Build cache is disabled
+[        ] Skipping DexingNoClasspathTransform: /Users/suzukiaakira/.pub-cache/hosted/pub.dev/cloud_firestore-6.3.0/android/build/intermediates/runtime_library_classes_jar/debug/bundleLibRuntimeToJarDebug/classes.jar as it is up-to-date.
+[        ] DexingOutputSplitTransform (Thread[#2397,Execution worker Thread 9,5,main]) started.
+[        ] > Task :app:desugarDebugFileDependencies UP-TO-DATE
+[        ] Caching disabled for task ':app:desugarDebugFileDependencies' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:desugarDebugFileDependencies' as it is up-to-date.
+[        ] > Transform classes.jar (project :firebase_core) with DexingNoClasspathTransform
+[        ] Caching disabled for DexingNoClasspathTransform: /Users/suzukiaakira/.pub-cache/hosted/pub.dev/firebase_core-4.7.0/android/build/intermediates/runtime_library_classes_jar/debug/bundleLibRuntimeToJarDebug/classes.jar because:
+[        ]   Build cache is disabled
+[        ] Skipping DexingNoClasspathTransform: /Users/suzukiaakira/.pub-cache/hosted/pub.dev/firebase_core-4.7.0/android/build/intermediates/runtime_library_classes_jar/debug/bundleLibRuntimeToJarDebug/classes.jar as it is up-to-date.
+[        ] Resolve mutations for :app:dexBuilderDebug (Thread[#2389,Execution worker,5,main]) started.
+[        ] DexingOutputSplitTransform (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] :app:dexBuilderDebug (Thread[#2389,Execution worker,5,main]) started.
+[        ] > Task :app:dexBuilderDebug UP-TO-DATE
+[        ] Caching disabled for task ':app:dexBuilderDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:dexBuilderDebug' as it is up-to-date.
+[        ] Resolve mutations for :app:mergeDebugGlobalSynthetics (Thread[#2389,Execution worker,5,main]) started.
+[        ] :app:mergeDebugGlobalSynthetics (Thread[#2389,Execution worker,5,main]) started.
+[        ] > Task :app:mergeDebugGlobalSynthetics UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeDebugGlobalSynthetics' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:mergeDebugGlobalSynthetics' as it is up-to-date.
+[        ] Resolve mutations for :app:processDebugJavaRes (Thread[#2389,Execution worker,5,main]) started.
+[        ] :app:processDebugJavaRes (Thread[#2389,Execution worker,5,main]) started.
+[        ] > Task :app:processDebugJavaRes UP-TO-DATE
+[        ] file or directory '/Users/suzukiaakira/clean_test/clean_test2/android/app/src/main/resources', not found
+[        ] file or directory '/Users/suzukiaakira/clean_test/clean_test2/android/app/src/debug/resources', not found
+[        ] file or directory '/Users/suzukiaakira/clean_test/clean_test2/android/app/src/main/resources', not found
+[        ] file or directory '/Users/suzukiaakira/clean_test/clean_test2/android/app/src/debug/resources', not found
+[        ] Caching disabled for task ':app:processDebugJavaRes' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:processDebugJavaRes' as it is up-to-date.
+[        ] Resolve mutations for :cloud_firestore:processDebugJavaRes (Thread[#2389,Execution worker,5,main]) started.
+[        ] :cloud_firestore:processDebugJavaRes (Thread[#2389,Execution worker,5,main]) started.
+[        ] > Task :cloud_firestore:processDebugJavaRes NO-SOURCE
+[        ] file or directory '/Users/suzukiaakira/.pub-cache/hosted/pub.dev/cloud_firestore-6.3.0/android/src/main/resources', not found
+[        ] file or directory '/Users/suzukiaakira/.pub-cache/hosted/pub.dev/cloud_firestore-6.3.0/android/src/debug/resources', not found
+[        ] Skipping task ':cloud_firestore:processDebugJavaRes' as it has no source files and no previous output files.
+[        ] work action resolve out (project :cloud_firestore) (Thread[#2389,Execution worker,5,main]) started.
+[        ] Resolve mutations for :firebase_core:processDebugJavaRes (Thread[#2389,Execution worker,5,main]) started.
+[        ] :firebase_core:processDebugJavaRes (Thread[#2389,Execution worker,5,main]) started.
+[        ] > Task :firebase_core:processDebugJavaRes NO-SOURCE
+[        ] file or directory '/Users/suzukiaakira/.pub-cache/hosted/pub.dev/firebase_core-4.7.0/android/src/main/resources', not found
+[        ] file or directory '/Users/suzukiaakira/.pub-cache/hosted/pub.dev/firebase_core-4.7.0/android/src/debug/resources', not found
+[        ] Skipping task ':firebase_core:processDebugJavaRes' as it has no source files and no previous output files.
+[        ] work action resolve out (project :firebase_core) (Thread[#2389,Execution worker,5,main]) started.
+[        ] Resolve mutations for :app:mergeDebugJavaResource (Thread[#2389,Execution worker,5,main]) started.
+[        ] :app:mergeDebugJavaResource (Thread[#2389,Execution worker,5,main]) started.
+[        ] > Task :app:mergeDebugJavaResource UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeDebugJavaResource' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:mergeDebugJavaResource' as it is up-to-date.
+[        ] Resolve mutations for :app:checkDebugDuplicateClasses (Thread[#2389,Execution worker,5,main]) started.
+[        ] :app:checkDebugDuplicateClasses (Thread[#2389,Execution worker,5,main]) started.
+[        ] > Task :app:checkDebugDuplicateClasses UP-TO-DATE
+[        ] Caching disabled for task ':app:checkDebugDuplicateClasses' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:checkDebugDuplicateClasses' as it is up-to-date.
+[        ] Resolve mutations for :app:mergeExtDexDebug (Thread[#2389,Execution worker,5,main]) started.
+[        ] :app:mergeExtDexDebug (Thread[#2389,Execution worker,5,main]) started.
+[        ] > Task :app:mergeExtDexDebug UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeExtDexDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:mergeExtDexDebug' as it is up-to-date.
+[        ] Resolve mutations for :cloud_firestore:bundleLibRuntimeToDirDebug (Thread[#2389,Execution worker,5,main]) started.
+[        ] :cloud_firestore:bundleLibRuntimeToDirDebug (Thread[#2389,Execution worker,5,main]) started.
+[        ] > Task :cloud_firestore:bundleLibRuntimeToDirDebug UP-TO-DATE
+[        ] Caching disabled for task ':cloud_firestore:bundleLibRuntimeToDirDebug' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':cloud_firestore:bundleLibRuntimeToDirDebug' as it is up-to-date.
+[        ] work action resolve bundleLibRuntimeToDirDebug (project :cloud_firestore) (Thread[#2389,Execution worker,5,main]) started.
+[        ] ClassesDirToClassesTransform (Thread[#2389,Execution worker,5,main]) started.
+[        ] Resolve mutations for :firebase_core:bundleLibRuntimeToDirDebug (Thread[#2388,included builds,5,main]) started.
+[        ] :firebase_core:bundleLibRuntimeToDirDebug (Thread[#2388,included builds,5,main]) started.
+[        ] DexingNoClasspathTransform (Thread[#2389,Execution worker,5,main]) started.
+[        ] > Task :firebase_core:bundleLibRuntimeToDirDebug UP-TO-DATE
+[        ] Caching disabled for task ':firebase_core:bundleLibRuntimeToDirDebug' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':firebase_core:bundleLibRuntimeToDirDebug' as it is up-to-date.
+[        ] work action resolve bundleLibRuntimeToDirDebug (project :firebase_core) (Thread[#2388,included builds,5,main]) started.
+[        ] ClassesDirToClassesTransform (Thread[#2388,included builds,5,main]) started.
+[        ] Resolve mutations for :app:mergeProjectDexDebug (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] DexingNoClasspathTransform (Thread[#2388,included builds,5,main]) started.
+[        ] :app:mergeProjectDexDebug (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] > Task :app:mergeProjectDexDebug UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeProjectDexDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:mergeProjectDexDebug' as it is up-to-date.
+[        ] Resolve mutations for :app:configureCMakeDebug[arm64-v8a] (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] > Transform bundleLibRuntimeToDirDebug (project :cloud_firestore) with DexingNoClasspathTransform
+[        ] Caching disabled for DexingNoClasspathTransform: /Users/suzukiaakira/.pub-cache/hosted/pub.dev/cloud_firestore-6.3.0/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug because:
+[        ]   Build cache is disabled
+[        ] Skipping DexingNoClasspathTransform: /Users/suzukiaakira/.pub-cache/hosted/pub.dev/cloud_firestore-6.3.0/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug as it is up-to-date.
+[        ] :app:configureCMakeDebug[arm64-v8a] (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] DexingOutputSplitTransform (Thread[#2389,Execution worker,5,main]) started.
+[        ] > Transform bundleLibRuntimeToDirDebug (project :firebase_core) with DexingNoClasspathTransform
+[        ] Caching disabled for DexingNoClasspathTransform: /Users/suzukiaakira/.pub-cache/hosted/pub.dev/firebase_core-4.7.0/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug because:
+[        ]   Build cache is disabled
+[        ] Skipping DexingNoClasspathTransform: /Users/suzukiaakira/.pub-cache/hosted/pub.dev/firebase_core-4.7.0/android/build/intermediates/runtime_library_classes_dir/debug/bundleLibRuntimeToDirDebug as it is up-to-date.
+[        ] DexingOutputSplitTransform (Thread[#2388,included builds,5,main]) started.
+[        ] > Task :app:configureCMakeDebug[arm64-v8a]
+[        ] Caching disabled for task ':app:configureCMakeDebug[arm64-v8a]' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':app:configureCMakeDebug[arm64-v8a]' is not up-to-date because:
+[        ]   Task.upToDateWhen is false.
+[        ] C/C++: /Users/suzukiaakira/Desktop/my_app_final2/flutter/packages/flutter_tools/gradle/src/main/scripts/CMakeLists.txt debug|arm64-v8a : Start JSON generation. Platform version: 24 min SDK version: arm64-v8a
+[        ] C/C++: /Users/suzukiaakira/Desktop/my_app_final2/flutter/packages/flutter_tools/gradle/src/main/scripts/CMakeLists.txt debug|arm64-v8a : JSON '/Users/suzukiaakira/clean_test/clean_test2/android/app/.cxx/debug/3h5e6v1p/arm64-v8a/android_gradle_build.json' was up-to-date
+[        ] C/C++: /Users/suzukiaakira/Desktop/my_app_final2/flutter/packages/flutter_tools/gradle/src/main/scripts/CMakeLists.txt debug|arm64-v8a : JSON generation completed without problems
+[        ] C/C++: /Users/suzukiaakira/Desktop/my_app_final2/flutter/packages/flutter_tools/gradle/src/main/scripts/CMakeLists.txt debug|arm64-v8a : Writing build model to /Users/suzukiaakira/clean_test/clean_test2/android/app/build/intermediates/cxx/debug/3h5e6v1p/logs/arm64-v8a/build_model.json
+[        ] Resolve mutations for :app:mergeLibDexDebug (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] :app:mergeLibDexDebug (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] > Task :app:mergeLibDexDebug UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeLibDexDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:mergeLibDexDebug' as it is up-to-date.
+[        ] Resolve mutations for :app:buildCMakeDebug[arm64-v8a] (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] :app:buildCMakeDebug[arm64-v8a] (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] > Task :app:buildCMakeDebug[arm64-v8a]
+[        ] Caching disabled for task ':app:buildCMakeDebug[arm64-v8a]' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':app:buildCMakeDebug[arm64-v8a]' is not up-to-date because:
+[        ]   Task.upToDateWhen is false.
+[        ] C/C++: starting build
+[        ] C/C++: reading expected JSONs
+[        ] C/C++: done reading expected JSONs
+[        ] C/C++: executing build commands for targets that produce .so files or executables
+[        ] C/C++: evaluate miniconfig
+[        ] C/C++: no libraries
+[        ] Resolve mutations for :app:configureCMakeDebug[armeabi-v7a] (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] :app:configureCMakeDebug[armeabi-v7a] (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] > Task :app:configureCMakeDebug[armeabi-v7a]
+[        ] Caching disabled for task ':app:configureCMakeDebug[armeabi-v7a]' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':app:configureCMakeDebug[armeabi-v7a]' is not up-to-date because:
+[        ]   Task.upToDateWhen is false.
+[        ] C/C++: /Users/suzukiaakira/Desktop/my_app_final2/flutter/packages/flutter_tools/gradle/src/main/scripts/CMakeLists.txt debug|armeabi-v7a : Start JSON generation. Platform version: 24 min SDK version: armeabi-v7a
+[        ] C/C++: /Users/suzukiaakira/Desktop/my_app_final2/flutter/packages/flutter_tools/gradle/src/main/scripts/CMakeLists.txt debug|armeabi-v7a : JSON '/Users/suzukiaakira/clean_test/clean_test2/android/app/.cxx/debug/3h5e6v1p/armeabi-v7a/android_gradle_build.json' was up-to-date
+[        ] C/C++: /Users/suzukiaakira/Desktop/my_app_final2/flutter/packages/flutter_tools/gradle/src/main/scripts/CMakeLists.txt debug|armeabi-v7a : JSON generation completed without problems
+[        ] C/C++: /Users/suzukiaakira/Desktop/my_app_final2/flutter/packages/flutter_tools/gradle/src/main/scripts/CMakeLists.txt debug|armeabi-v7a : Writing build model to /Users/suzukiaakira/clean_test/clean_test2/android/app/build/intermediates/cxx/debug/3h5e6v1p/logs/armeabi-v7a/build_model.json
+[        ] Resolve mutations for :app:buildCMakeDebug[armeabi-v7a] (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] :app:buildCMakeDebug[armeabi-v7a] (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] > Task :app:buildCMakeDebug[armeabi-v7a]
+[        ] Caching disabled for task ':app:buildCMakeDebug[armeabi-v7a]' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':app:buildCMakeDebug[armeabi-v7a]' is not up-to-date because:
+[        ]   Task.upToDateWhen is false.
+[        ] C/C++: starting build
+[        ] C/C++: reading expected JSONs
+[        ] C/C++: done reading expected JSONs
+[        ] C/C++: executing build commands for targets that produce .so files or executables
+[        ] C/C++: evaluate miniconfig
+[        ] C/C++: no libraries
+[        ] Resolve mutations for :app:configureCMakeDebug[x86_64] (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] :app:configureCMakeDebug[x86_64] (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] > Task :app:configureCMakeDebug[x86_64]
+[        ] Caching disabled for task ':app:configureCMakeDebug[x86_64]' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':app:configureCMakeDebug[x86_64]' is not up-to-date because:
+[        ]   Task.upToDateWhen is false.
+[        ] C/C++: /Users/suzukiaakira/Desktop/my_app_final2/flutter/packages/flutter_tools/gradle/src/main/scripts/CMakeLists.txt debug|x86_64 : Start JSON generation. Platform version: 24 min SDK version: x86_64
+[        ] C/C++: /Users/suzukiaakira/Desktop/my_app_final2/flutter/packages/flutter_tools/gradle/src/main/scripts/CMakeLists.txt debug|x86_64 : JSON '/Users/suzukiaakira/clean_test/clean_test2/android/app/.cxx/debug/3h5e6v1p/x86_64/android_gradle_build.json' was up-to-date
+[        ] C/C++: /Users/suzukiaakira/Desktop/my_app_final2/flutter/packages/flutter_tools/gradle/src/main/scripts/CMakeLists.txt debug|x86_64 : JSON generation completed without problems
+[        ] C/C++: /Users/suzukiaakira/Desktop/my_app_final2/flutter/packages/flutter_tools/gradle/src/main/scripts/CMakeLists.txt debug|x86_64 : Writing build model to /Users/suzukiaakira/clean_test/clean_test2/android/app/build/intermediates/cxx/debug/3h5e6v1p/logs/x86_64/build_model.json
+[        ] Resolve mutations for :app:buildCMakeDebug[x86_64] (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] :app:buildCMakeDebug[x86_64] (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] > Task :app:buildCMakeDebug[x86_64]
+[        ] Caching disabled for task ':app:buildCMakeDebug[x86_64]' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':app:buildCMakeDebug[x86_64]' is not up-to-date because:
+[        ]   Task.upToDateWhen is false.
+[        ] C/C++: starting build
+[        ] C/C++: reading expected JSONs
+[        ] C/C++: done reading expected JSONs
+[        ] C/C++: executing build commands for targets that produce .so files or executables
+[        ] C/C++: evaluate miniconfig
+[        ] C/C++: no libraries
+[        ] Resolve mutations for :app:mergeDebugJniLibFolders (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] :app:mergeDebugJniLibFolders (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] > Task :app:mergeDebugJniLibFolders UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeDebugJniLibFolders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':app:mergeDebugJniLibFolders' as it is up-to-date.
+[        ] Resolve mutations for :cloud_firestore:mergeDebugJniLibFolders (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] :cloud_firestore:mergeDebugJniLibFolders (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] > Task :cloud_firestore:mergeDebugJniLibFolders UP-TO-DATE
+[        ] Caching disabled for task ':cloud_firestore:mergeDebugJniLibFolders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':cloud_firestore:mergeDebugJniLibFolders' as it is up-to-date.
+[        ] Resolve mutations for :cloud_firestore:mergeDebugNativeLibs (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] :cloud_firestore:mergeDebugNativeLibs (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] > Task :cloud_firestore:mergeDebugNativeLibs NO-SOURCE
+[        ] Skipping task ':cloud_firestore:mergeDebugNativeLibs' as it has no source files and no previous output files.
+[        ] Resolve mutations for :cloud_firestore:copyDebugJniLibsProjectOnly (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] :cloud_firestore:copyDebugJniLibsProjectOnly (Thread[#2395,Execution worker Thread 7,5,main]) started.
+[        ] > Task :cloud_firestore:copyDebugJniLibsProjectOnly UP-TO-DATE
+[        ] Caching disabled for task ':cloud_firestore:copyDebugJniLibsProjectOnly' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':cloud_firestore:copyDebugJniLibsProjectOnly' as it is up-to-date.
+[        ] work action resolve jni (project :cloud_firestore) (Thread[#2388,included builds,5,main]) started.
+[        ] Resolve mutations for :firebase_core:mergeDebugJniLibFolders (Thread[#2388,included builds,5,main]) started.
+[        ] :firebase_core:mergeDebugJniLibFolders (Thread[#2388,included builds,5,main]) started.
+[        ] > Task :firebase_core:mergeDebugJniLibFolders UP-TO-DATE
+[        ] Caching disabled for task ':firebase_core:mergeDebugJniLibFolders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':firebase_core:mergeDebugJniLibFolders' as it is up-to-date.
+[        ] Resolve mutations for :firebase_core:mergeDebugNativeLibs (Thread[#2388,included builds,5,main]) started.
+[        ] :firebase_core:mergeDebugNativeLibs (Thread[#2388,included builds,5,main]) started.
+[        ] > Task :firebase_core:mergeDebugNativeLibs NO-SOURCE
+[        ] Skipping task ':firebase_core:mergeDebugNativeLibs' as it has no source files and no previous output files.
+[        ] Resolve mutations for :firebase_core:copyDebugJniLibsProjectOnly (Thread[#2388,included builds,5,main]) started.
+[        ] :firebase_core:copyDebugJniLibsProjectOnly (Thread[#2388,included builds,5,main]) started.
+[        ] > Task :firebase_core:copyDebugJniLibsProjectOnly UP-TO-DATE
+[        ] Caching disabled for task ':firebase_core:copyDebugJniLibsProjectOnly' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':firebase_core:copyDebugJniLibsProjectOnly' as it is up-to-date.
+[        ] work action resolve jni (project :firebase_core) (Thread[#2388,included builds,5,main]) started.
+[        ] Resolve mutations for :app:mergeDebugNativeLibs (Thread[#2388,included builds,5,main]) started.
+[        ] :app:mergeDebugNativeLibs (Thread[#2388,included builds,5,main]) started.
+[        ] > Task :app:mergeDebugNativeLibs UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeDebugNativeLibs' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:mergeDebugNativeLibs' as it is up-to-date.
+[        ] Resolve mutations for :app:stripDebugDebugSymbols (Thread[#2388,included builds,5,main]) started.
+[        ] :app:stripDebugDebugSymbols (Thread[#2388,included builds,5,main]) started.
+[        ] > Task :app:stripDebugDebugSymbols UP-TO-DATE
+[        ] Caching disabled for task ':app:stripDebugDebugSymbols' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:stripDebugDebugSymbols' as it is up-to-date.
+[        ] Resolve mutations for :app:validateSigningDebug (Thread[#2388,included builds,5,main]) started.
+[        ] :app:validateSigningDebug (Thread[#2388,included builds,5,main]) started.
+[        ] > Task :app:validateSigningDebug UP-TO-DATE
+[        ] Caching disabled for task ':app:validateSigningDebug' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:validateSigningDebug' as it is up-to-date.
+[        ] Resolve mutations for :app:writeDebugAppMetadata (Thread[#2388,included builds,5,main]) started.
+[        ] :app:writeDebugAppMetadata (Thread[#2388,included builds,5,main]) started.
+[        ] > Task :app:writeDebugAppMetadata UP-TO-DATE
+[        ] Caching disabled for task ':app:writeDebugAppMetadata' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:writeDebugAppMetadata' as it is up-to-date.
+[        ] Resolve mutations for :app:writeDebugSigningConfigVersions (Thread[#2388,included builds,5,main]) started.
+[        ] :app:writeDebugSigningConfigVersions (Thread[#2388,included builds,5,main]) started.
+[        ] > Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+[        ] Caching disabled for task ':app:writeDebugSigningConfigVersions' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:writeDebugSigningConfigVersions' as it is up-to-date.
+[        ] Resolve mutations for :app:packageDebug (Thread[#2388,included builds,5,main]) started.
+[        ] :app:packageDebug (Thread[#2388,included builds,5,main]) started.
+[        ] > Task :app:packageDebug UP-TO-DATE
+[        ] Custom actions are attached to task ':app:packageDebug'.
+[        ] Caching disabled for task ':app:packageDebug' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:packageDebug' as it is up-to-date.
+[        ] Resolve mutations for :app:createDebugApkListingFileRedirect (Thread[#2388,included builds,5,main]) started.
+[        ] :app:createDebugApkListingFileRedirect (Thread[#2388,included builds,5,main]) started.
+[        ] > Task :app:createDebugApkListingFileRedirect UP-TO-DATE
+[        ] Caching disabled for task ':app:createDebugApkListingFileRedirect' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:createDebugApkListingFileRedirect' as it is up-to-date.
+[        ] Resolve mutations for :app:assembleDebug (Thread[#2388,included builds,5,main]) started.
+[        ] :app:assembleDebug (Thread[#2388,included builds,5,main]) started.
+[  +73 ms] > Task :app:assembleDebug
+[        ] Caching disabled for task ':app:assembleDebug' because:
+[        ]   Build cache is disabled
+[        ] Task ':app:assembleDebug' is not up-to-date because:
+[        ]   Task has not declared any outputs despite executing actions.
+[        ] Resolve mutations for :cloud_firestore:stripDebugDebugSymbols (Thread[#2388,included builds,5,main]) started.
+[        ] :cloud_firestore:stripDebugDebugSymbols (Thread[#2388,included builds,5,main]) started.
+[        ] > Task :cloud_firestore:stripDebugDebugSymbols NO-SOURCE
+[        ] Skipping task ':cloud_firestore:stripDebugDebugSymbols' as it has no source files and no previous output files.
+[        ] Resolve mutations for :cloud_firestore:copyDebugJniLibsProjectAndLocalJars (Thread[#2388,included builds,5,main]) started.
+[        ] :cloud_firestore:copyDebugJniLibsProjectAndLocalJars (Thread[#2388,included builds,5,main]) started.
+[        ] > Task :cloud_firestore:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+[        ] Caching disabled for task ':cloud_firestore:copyDebugJniLibsProjectAndLocalJars' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':cloud_firestore:copyDebugJniLibsProjectAndLocalJars' as it is up-to-date.
+[        ] Resolve mutations for :cloud_firestore:extractDebugAnnotations (Thread[#2388,included builds,5,main]) started.
+[        ] :cloud_firestore:extractDebugAnnotations (Thread[#2388,included builds,5,main]) started.
+[        ] > Task :cloud_firestore:extractDebugAnnotations UP-TO-DATE
+[        ] Caching disabled for task ':cloud_firestore:extractDebugAnnotations' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':cloud_firestore:extractDebugAnnotations' as it is up-to-date.
+[        ] Resolve mutations for :cloud_firestore:extractDeepLinksForAarDebug (Thread[#2388,included builds,5,main]) started.
+[        ] :cloud_firestore:extractDeepLinksForAarDebug (Thread[#2388,included builds,5,main]) started.
+[        ] > Task :cloud_firestore:extractDeepLinksForAarDebug UP-TO-DATE
+[        ] Caching disabled for task ':cloud_firestore:extractDeepLinksForAarDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':cloud_firestore:extractDeepLinksForAarDebug' as it is up-to-date.
+[        ] Resolve mutations for :cloud_firestore:mergeDebugGeneratedProguardFiles (Thread[#2388,included builds,5,main]) started.
+[        ] :cloud_firestore:mergeDebugGeneratedProguardFiles (Thread[#2388,included builds,5,main]) started.
+[        ] > Task :cloud_firestore:mergeDebugGeneratedProguardFiles UP-TO-DATE
+[        ] Caching disabled for task ':cloud_firestore:mergeDebugGeneratedProguardFiles' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':cloud_firestore:mergeDebugGeneratedProguardFiles' as it is up-to-date.
+[        ] Resolve mutations for :cloud_firestore:mergeDebugConsumerProguardFiles (Thread[#2388,included builds,5,main]) started.
+[        ] :cloud_firestore:mergeDebugConsumerProguardFiles (Thread[#2388,included builds,5,main]) started.
+[        ] > Task :cloud_firestore:mergeDebugConsumerProguardFiles UP-TO-DATE
+[        ] Caching disabled for task ':cloud_firestore:mergeDebugConsumerProguardFiles' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':cloud_firestore:mergeDebugConsumerProguardFiles' as it is up-to-date.
+[        ] Resolve mutations for :cloud_firestore:prepareDebugArtProfile (Thread[#2388,included builds,5,main]) started.
+[        ] :cloud_firestore:prepareDebugArtProfile (Thread[#2388,included builds,5,main]) started.
+[        ] > Task :cloud_firestore:prepareDebugArtProfile UP-TO-DATE
+[        ] Caching disabled for task ':cloud_firestore:prepareDebugArtProfile' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':cloud_firestore:prepareDebugArtProfile' as it is up-to-date.
+[        ] Resolve mutations for :cloud_firestore:prepareLintJarForPublish (Thread[#2388,included builds,5,main]) started.
+[        ] :cloud_firestore:prepareLintJarForPublish (Thread[#2388,included builds,5,main]) started.
+[        ] > Task :cloud_firestore:prepareLintJarForPublish UP-TO-DATE
+[        ] Caching disabled for task ':cloud_firestore:prepareLintJarForPublish' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':cloud_firestore:prepareLintJarForPublish' as it is up-to-date.
+[        ] Resolve mutations for :cloud_firestore:mergeDebugJavaResource (Thread[#2388,included builds,5,main]) started.
+[        ] :cloud_firestore:mergeDebugJavaResource (Thread[#2388,included builds,5,main]) started.
+[        ] > Task :cloud_firestore:mergeDebugJavaResource UP-TO-DATE
+[        ] Caching disabled for task ':cloud_firestore:mergeDebugJavaResource' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':cloud_firestore:mergeDebugJavaResource' as it is up-to-date.
+[        ] Resolve mutations for :cloud_firestore:syncDebugLibJars (Thread[#2388,included builds,5,main]) started.
+[        ] :cloud_firestore:syncDebugLibJars (Thread[#2388,included builds,5,main]) started.
+[        ] > Task :cloud_firestore:syncDebugLibJars UP-TO-DATE
+[        ] Caching disabled for task ':cloud_firestore:syncDebugLibJars' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':cloud_firestore:syncDebugLibJars' as it is up-to-date.
+[        ] Resolve mutations for :cloud_firestore:bundleDebugAar (Thread[#2388,included builds,5,main]) started.
+[        ] :cloud_firestore:bundleDebugAar (Thread[#2388,included builds,5,main]) started.
+[        ] > Task :cloud_firestore:bundleDebugAar UP-TO-DATE
+[        ] Caching disabled for task ':cloud_firestore:bundleDebugAar' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':cloud_firestore:bundleDebugAar' as it is up-to-date.
+[        ] Resolve mutations for :cloud_firestore:assembleDebug (Thread[#2388,included builds,5,main]) started.
+[        ] :cloud_firestore:assembleDebug (Thread[#2388,included builds,5,main]) started.
+[        ] > Task :cloud_firestore:assembleDebug UP-TO-DATE
+[        ] Skipping task ':cloud_firestore:assembleDebug' as it has no actions.
+[        ] Resolve mutations for :firebase_core:stripDebugDebugSymbols (Thread[#2388,included builds,5,main]) started.
+[        ] :firebase_core:stripDebugDebugSymbols (Thread[#2388,included builds,5,main]) started.
+[        ] > Task :firebase_core:stripDebugDebugSymbols NO-SOURCE
+[        ] Skipping task ':firebase_core:stripDebugDebugSymbols' as it has no source files and no previous output files.
+[        ] Resolve mutations for :firebase_core:copyDebugJniLibsProjectAndLocalJars (Thread[#2388,included builds,5,main]) started.
+[        ] :firebase_core:copyDebugJniLibsProjectAndLocalJars (Thread[#2388,included builds,5,main]) started.
+[        ] > Task :firebase_core:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+[        ] Caching disabled for task ':firebase_core:copyDebugJniLibsProjectAndLocalJars' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':firebase_core:copyDebugJniLibsProjectAndLocalJars' as it is up-to-date.
+[        ] Resolve mutations for :firebase_core:extractDebugAnnotations (Thread[#2388,included builds,5,main]) started.
+[        ] :firebase_core:extractDebugAnnotations (Thread[#2388,included builds,5,main]) started.
+[        ] > Task :firebase_core:extractDebugAnnotations UP-TO-DATE
+[        ] Caching disabled for task ':firebase_core:extractDebugAnnotations' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':firebase_core:extractDebugAnnotations' as it is up-to-date.
+[        ] Resolve mutations for :firebase_core:extractDeepLinksForAarDebug (Thread[#2388,included builds,5,main]) started.
+[        ] :firebase_core:extractDeepLinksForAarDebug (Thread[#2388,included builds,5,main]) started.
+[        ] > Task :firebase_core:extractDeepLinksForAarDebug UP-TO-DATE
+[        ] Caching disabled for task ':firebase_core:extractDeepLinksForAarDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':firebase_core:extractDeepLinksForAarDebug' as it is up-to-date.
+[        ] Resolve mutations for :firebase_core:mergeDebugGeneratedProguardFiles (Thread[#2388,included builds,5,main]) started.
+[        ] :firebase_core:mergeDebugGeneratedProguardFiles (Thread[#2388,included builds,5,main]) started.
+[        ] > Task :firebase_core:mergeDebugGeneratedProguardFiles UP-TO-DATE
+[        ] Caching disabled for task ':firebase_core:mergeDebugGeneratedProguardFiles' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':firebase_core:mergeDebugGeneratedProguardFiles' as it is up-to-date.
+[        ] Resolve mutations for :firebase_core:mergeDebugConsumerProguardFiles (Thread[#2388,included builds,5,main]) started.
+[        ] :firebase_core:mergeDebugConsumerProguardFiles (Thread[#2388,included builds,5,main]) started.
+[        ] > Task :firebase_core:mergeDebugConsumerProguardFiles UP-TO-DATE
+[        ] Caching disabled for task ':firebase_core:mergeDebugConsumerProguardFiles' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':firebase_core:mergeDebugConsumerProguardFiles' as it is up-to-date.
+[        ] Resolve mutations for :firebase_core:prepareDebugArtProfile (Thread[#2388,included builds,5,main]) started.
+[        ] :firebase_core:prepareDebugArtProfile (Thread[#2388,included builds,5,main]) started.
+[        ] > Task :firebase_core:prepareDebugArtProfile UP-TO-DATE
+[        ] Caching disabled for task ':firebase_core:prepareDebugArtProfile' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':firebase_core:prepareDebugArtProfile' as it is up-to-date.
+[        ] Resolve mutations for :firebase_core:prepareLintJarForPublish (Thread[#2388,included builds,5,main]) started.
+[        ] :firebase_core:prepareLintJarForPublish (Thread[#2388,included builds,5,main]) started.
+[        ] > Task :firebase_core:prepareLintJarForPublish UP-TO-DATE
+[        ] Caching disabled for task ':firebase_core:prepareLintJarForPublish' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':firebase_core:prepareLintJarForPublish' as it is up-to-date.
+[        ] Resolve mutations for :firebase_core:mergeDebugJavaResource (Thread[#2388,included builds,5,main]) started.
+[        ] :firebase_core:mergeDebugJavaResource (Thread[#2388,included builds,5,main]) started.
+[        ] > Task :firebase_core:mergeDebugJavaResource UP-TO-DATE
+[        ] Caching disabled for task ':firebase_core:mergeDebugJavaResource' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':firebase_core:mergeDebugJavaResource' as it is up-to-date.
+[        ] Resolve mutations for :firebase_core:syncDebugLibJars (Thread[#2388,included builds,5,main]) started.
+[        ] :firebase_core:syncDebugLibJars (Thread[#2388,included builds,5,main]) started.
+[        ] > Task :firebase_core:syncDebugLibJars UP-TO-DATE
+[        ] Caching disabled for task ':firebase_core:syncDebugLibJars' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':firebase_core:syncDebugLibJars' as it is up-to-date.
+[        ] Resolve mutations for :firebase_core:bundleDebugAar (Thread[#2388,included builds,5,main]) started.
+[        ] :firebase_core:bundleDebugAar (Thread[#2388,included builds,5,main]) started.
+[        ] > Task :firebase_core:bundleDebugAar UP-TO-DATE
+[        ] Caching disabled for task ':firebase_core:bundleDebugAar' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':firebase_core:bundleDebugAar' as it is up-to-date.
+[        ] Resolve mutations for :firebase_core:assembleDebug (Thread[#2388,included builds,5,main]) started.
+[        ] :firebase_core:assembleDebug (Thread[#2388,included builds,5,main]) started.
+[        ] > Task :firebase_core:assembleDebug UP-TO-DATE
+[        ] Skipping task ':firebase_core:assembleDebug' as it has no actions.
+[        ] Build 89c18210-ff38-4b54-9728-05569ee20d48 is closed
+[        ] [Incubating] Problems report is available at: file:///Users/suzukiaakira/clean_test/clean_test2/android/build/reports/problems/problems-report.html
+[        ] Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+[        ] You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+[        ] For more on this, please refer to https://docs.gradle.org/8.14/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+[        ] BUILD SUCCESSFUL in 1s
+[        ] 111 actionable tasks: 11 executed, 100 up-to-date
+[        ] Watched directory hierarchies: [/Users/suzukiaakira/Desktop/my_app_final2/flutter/packages/flutter_tools/gradle, /Users/suzukiaakira/clean_test/clean_test2/android]
+[   +1 ms] Running Gradle task 'assembleDebug'... (completed in 1,304ms)
+[  +25 ms] LocalFile: '/Users/suzukiaakira/clean_test/clean_test2/android/build.gradle.kts' doesn't provide an AGP version. Checking settings.
+[        ] LocalFile: '/Users/suzukiaakira/clean_test/clean_test2/android/settings.gradle.kts' provides AGP version: 8.11.1
+[ +618 ms] [
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.4 (23E244)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone18,5",
+               "identifier" : "E17D31A0-0820-4601-8589-DD8F3D7C4531",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.iphone-17e-1",
+               "modelName" : "iPhone 17e",
+               "name" : "iPhone 17e",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.4 (23E244)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad16,9",
+               "identifier" : "212F9AB8-0674-4BB1-B0F1-462D929E5C3F",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.ipad-air-11-inch-m4-1",
+               "modelName" : "iPad Air 11-inch (M4)",
+               "name" : "iPad Air 11-inch (M4)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.4 (23E244)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone18,1",
+               "identifier" : "E79C6E56-8900-4970-A930-A7756362671B",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.iphone-17-pro-2",
+               "modelName" : "iPhone 17 Pro",
+               "name" : "iPhone 17 Pro",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.4 (23E244)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad17,2",
+               "identifier" : "66B3A735-E093-4725-AC68-2D9569211520",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.ipad-pro-11-inch-m5-1",
+               "modelName" : "iPad Pro 11-inch (M5)",
+               "name" : "iPad Pro 11-inch (M5)",
+               "ignored" : false
+             },
+             {
+               "ignored" : false,
+               "modelCode" : "iPhone15,4",
+               "simulator" : false,
+               "modelName" : "iPhone 15",
+               "operatingSystemVersion" : "26.4.2 (23E261)",
+               "identifier" : "00008120-001650D23A6A601E",
+               "platform" : "com.apple.platform.iphoneos",
+               "architecture" : "arm64e",
+               "interface" : "usb",
+               "available" : true,
+               "name" : "iPhone",
+               "modelUTI" : "com.apple.iphone-15-1"
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.4 (23E244)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad17,4",
+               "identifier" : "9E98B8CD-818D-454F-884D-5C9109CB1AAC",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.ipad-pro-13-inch-m5-1",
+               "modelName" : "iPad Pro 13-inch (M5)",
+               "name" : "iPad Pro 13-inch (M5)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.4 (23E244)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone18,4",
+               "identifier" : "3D08B0F0-3486-4B91-84AD-DA752BD2EE98",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.iphone-air-1",
+               "modelName" : "iPhone Air",
+               "name" : "iPhone Air",
+               "ignored" : false
+             },
+             {
+               "ignored" : false,
+               "modelCode" : "MacBookPro18,4",
+               "simulator" : false,
+               "modelName" : "MacBook Pro",
+               "operatingSystemVersion" : "26.4.1 (25E253)",
+               "identifier" : "00006001-000830300A04801E",
+               "platform" : "com.apple.platform.macosx",
+               "architecture" : "arm64e",
+               "interface" : "usb",
+               "available" : true,
+               "name" : "My Mac",
+               "modelUTI" : "com.apple.macbookpro-14-2021"
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.4 (23E244)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad16,11",
+               "identifier" : "92086644-0C63-4B80-A550-6ED00A51B1A2",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.ipad-air-13-inch-m4-1",
+               "modelName" : "iPad Air 13-inch (M4)",
+               "name" : "iPad Air 13-inch (M4)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.4 (23E244)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad15,7",
+               "identifier" : "66647C9F-5832-47B6-85B8-A9D49B04CC5E",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.ipad-a16-1",
+               "modelName" : "iPad (A16)",
+               "name" : "iPad (A16)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.4 (23E244)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPad16,2",
+               "identifier" : "A5C6EAA5-595B-4D05-97E1-A6DD4FC44C9C",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.ipad-mini-a17-1",
+               "modelName" : "iPad mini (A17 Pro)",
+               "name" : "iPad mini (A17 Pro)",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.4 (23E244)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone18,3",
+               "identifier" : "99B3DE5C-9380-4ADD-8EA9-F8A89237264B",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.iphone-17-2",
+               "modelName" : "iPhone 17",
+               "name" : "iPhone 17",
+               "ignored" : false
+             },
+             {
+               "simulator" : true,
+               "operatingSystemVersion" : "26.4 (23E244)",
+               "available" : true,
+               "platform" : "com.apple.platform.iphonesimulator",
+               "modelCode" : "iPhone18,2",
+               "identifier" : "6CC6BE4C-30DF-435D-9EAF-879990AC08E2",
+               "architecture" : "arm64",
+               "modelUTI" : "com.apple.com.apple.iphone-17-pro-max-2",
+               "modelName" : "iPhone 17 Pro Max",
+               "name" : "iPhone 17 Pro Max",
+               "ignored" : false
+             }
+           ]
+[        ] "flutter run" took 7,520ms.
+[   +2 ms] executing: sw_vers -productName
+[  +14 ms] Exit code 0 from: sw_vers -productName
+[        ] macOS
+[        ] executing: sw_vers -productVersion
+[  +13 ms] Exit code 0 from: sw_vers -productVersion
+[        ] 26.4.1
+[        ] executing: sw_vers -buildVersion
+[  +13 ms] Exit code 0 from: sw_vers -buildVersion
+[        ] 25E253
+[        ] executing: uname -m
+[   +6 ms] Exit code 0 from: uname -m
+[        ] arm64
+[        ] Running 3 shutdown hooks
+[   +2 ms] Shutdown hooks complete
+[  +95 ms] exiting with code 1
