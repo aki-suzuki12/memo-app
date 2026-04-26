@@ -18,9 +18,9 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('あきアプリ開発')),
+
       body: Column(
         children: [
-          // チェックボックス
           CheckboxListTile(
             value: isChecked,
             title: const Text('チェック'),
@@ -32,39 +32,41 @@ class _HomePageState extends State<HomePage> {
           ),
 
           Expanded(
-            child: Stack(
-              children: [
-                // リスト
-                ListView.builder(
-                  padding: const EdgeInsets.only(bottom: 80),
-                  itemCount: items.length, // ← ここ変更
-                  itemBuilder: (context, index) {
-                    return ListTile(
-                      title: Text(items[index]), // ← ここ変更
-                      subtitle: const Text('subtitle'),
-                    );
-                  },
-                ),
+            child: ListView.builder(
+              itemCount: items.length,
+              itemBuilder: (context, index) {
+                return ListTile(
+                  title: Text(items[index]),
+                  subtitle: const Text('subtitle'),
+                );
+              },
+            ),
+          ),
 
-                // 右下ボタン（追加ボタンに変更）
-                Align(
-                  alignment: Alignment.bottomRight,
-                  child: Padding(
-                    padding: const EdgeInsets.all(16.0),
-                    child: ElevatedButton(
-                      onPressed: () {
-                        setState(() {
-                          items.add('ListTile ${items.length}');
-                        });
-                      },
-                      child: const Text('追加'),
-                    ),
-                  ),
-                ),
-              ],
+          // 👇 画面遷移ボタンはここ
+          Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (_) => const NextPage()),
+                );
+              },
+              child: const Text('次の画面へ'),
             ),
           ),
         ],
+      ),
+
+      // 👇 追加ボタンはこっち（分離）
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          setState(() {
+            items.add('ListTile ${items.length}');
+          });
+        },
+        child: const Icon(Icons.add),
       ),
     );
   }
