@@ -5,13 +5,14 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'items_provider.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
+final checkboxProvider = StateProvider<bool>((ref) => false);
+
 class HomePage extends ConsumerWidget {
   const HomePage({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final itemsAsync = ref.watch(itemsProvider);
-    final checkboxProvider = StateProvider<bool>((ref) => false);
     final isChecked = ref.watch(checkboxProvider);
 
     return Scaffold(
@@ -54,14 +55,16 @@ class HomePage extends ConsumerWidget {
 
             const SizedBox(height: 8),
 
-            ElevatedButton(
-              onPressed: () async {
-                await FirebaseFirestore.instance.collection('test').add({
-                  'message': 'hello',
-                });
-              },
-              child: Text('送信'),
-            )
+        ElevatedButton(
+         child: Text('次へ'),
+          onPressed: () {
+            // ここにボタンを押した時に呼ばれるコードを書く
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => NextPage()),
+            );
+          },
+        ),
           ],
         ),
       ),
