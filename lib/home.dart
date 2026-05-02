@@ -55,17 +55,13 @@ class HomePage extends ConsumerWidget {
             const SizedBox(height: 8),
 
             ElevatedButton(
-              style: ElevatedButton.styleFrom(
-                minimumSize: const Size(double.infinity, 50),
-              ),
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (_) => const NextPage()),
-                );
+              onPressed: () async {
+                await FirebaseFirestore.instance.collection('test').add({
+                  'message': 'hello',
+                });
               },
-              child: const Text('次の画面へ'),
-            ),
+              child: Text('送信'),
+            )
           ],
         ),
       ),
