@@ -1,17 +1,35 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_riverpod/legacy.dart';
 import 'next_page.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'items_provider.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_messaging/firebase_messaging.dart';
 
 final checkboxProvider = StateProvider<bool>((ref) => false);
 
-class HomePage extends ConsumerWidget {
+class HomePage extends ConsumerStatefulWidget {
   const HomePage({super.key});
 
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
+  ConsumerState<HomePage> createState() => _HomePageState();
+}
+
+class _HomePageState extends ConsumerState<HomePage> {
+  @override
+  void initState() {
+    super.initState();
+    setupFCM();
+  }
+
+  Future<void> setupFCM() async {
+    await FirebaseMessaging.instance.requestPermission();
+
+    await FirebaseMessaging.instance.subscribeToTopic("all");
+  }
+
+  @override
+  Widget build(BuildContext context) {
     final itemsAsync = ref.watch(itemsProvider);
     final isChecked = ref.watch(checkboxProvider);
 
@@ -33,7 +51,6 @@ class HomePage extends ConsumerWidget {
 
             const SizedBox(height: 8),
 
-            // 👇 ここが重要（Firestore表示）
             Expanded(
               child: itemsAsync.when(
                 data: (items) {
@@ -47,29 +64,26 @@ class HomePage extends ConsumerWidget {
                     },
                   );
                 },
-                loading: () =>
-                    const Center(child: CircularProgressIndicator()),
+                loading: () => const Center(child: CircularProgressIndicator()),
                 error: (e, _) => Center(child: Text('エラー: $e')),
               ),
             ),
 
             const SizedBox(height: 8),
 
-        ElevatedButton(
-         child: Text('次へ'),
-          onPressed: () {
-            // ここにボタンを押した時に呼ばれるコードを書く
-            Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => NextPage()),
-            );
-          },
-        ),
+            ElevatedButton(
+              child: const Text('次へ'),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => NextPage()),
+                );
+              },
+            ),
           ],
         ),
       ),
 
-      // 👇 Firestore保存
       floatingActionButton: FloatingActionButton(
         onPressed: () async {
           await FirebaseFirestore.instance.collection('items').add({
