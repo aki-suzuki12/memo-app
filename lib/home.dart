@@ -1,9 +1,11 @@
+import 'package:clean_test2/SearchPage.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'items_provider.dart';
+import 'package:geolocator/geolocator.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -27,9 +29,9 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   int _currentIndex = 0;
-  final List<Widget> _pages = [
+ final List<Widget> _pages = [
     const HomePage(),
-    const Center(child: Text('検索')),
+    const SearchPage(),
     const Center(child: Text('追加')),
     const Center(child: Text('通知')),
     const Center(child: Text('設定')),
